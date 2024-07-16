@@ -1,0 +1,966 @@
+id	np_id	np	drug_id	drug	interaction_type	source_data	adr	adr_id	source_id	npkg_edge	npkg_edge_label
+stockley_1	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_16664	Albendazole	positive	Stockleys			1		
+stockley_2	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_30879	Alcohol	positive	Stockleys			2		
+stockley_3	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_30879	Alcohol	positive	Stockleys			3		
+stockley_4|natmed_187	http://napdi.org/napdi_srs_imports:valeriana_officinalis	Valerian|Valerian	http://purl.obolibrary.org/obo/CHEBI_30879	Alcohol|ALCOHOL (Ethanol)	positive	Stockleys|NatMedPro	increased sedative effect		4		
+stockley_5|napdi_245	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea|green tea leaf extract	http://purl.obolibrary.org/obo/CHEBI_2611	Alprazolam|alprazolam	negative	Stockleys|NaPDI			5		
+stockley_37	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_3219	Bupropion	negative	Stockleys			6		
+stockley_38	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_3223	Buspirone	positive	Stockleys			7		
+stockley_39|napdi_231	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea|green tea leaf	http://purl.obolibrary.org/obo/CHEBI_3223	Buspirone|buspirone	positive	Stockleys|NaPDI			8		
+stockley_40	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	negative	Stockleys			9		
+stockley_41	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	positive	Stockleys			10		
+stockley_42	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	negative	Stockleys			11		
+stockley_43|napdi_192	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine|caffeine	negative	Stockleys|NaPDI			12		
+stockley_44|natmed_74	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit|Grapefruit	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine|CAFFEINE	both	Stockleys|NatMedPro			13		
+stockley_45|napdi_229	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea|green tea leaf	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine|caffeine	negative	Stockleys|NaPDI			14	http://purl.obolibrary.org/obo/RO_0002180|http://purl.obolibrary.org/obo/RO_0011009	has component|directly positively regulates quantity of
+stockley_46	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	positive	Stockleys			15		
+stockley_47	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	negative	Stockleys			16		
+stockley_48|natmed_220	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng|Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine|CAFFEINE	both	Stockleys|NatMedPro			17		
+stockley_49|natmed_20	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Purple-coneflower|Echinacea	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine|CAFFEINE	positive	Stockleys|NatMedPro			18		
+stockley_50	http://napdi.org/napdi_srs_imports:serenoa_repens	Scrub-palmetto	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	negative	Stockleys			19		
+stockley_51|natmed_237	http://napdi.org/napdi_srs_imports:glycine_max	Soy|Soy	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine|CAFFEINE	positive	Stockleys|NatMedPro			20		
+stockley_52	http://napdi.org/napdi_srs_imports:valeriana_officinalis	Valerian	http://purl.obolibrary.org/obo/CHEBI_27732	Caffeine	positive	Stockleys			21		
+stockley_54	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_101278	Diltiazem	positive	Stockleys			22		
+stockley_55	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_7550	Nicardipine	positive	Stockleys			23		
+stockley_56|napdi_182|natmed_48	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo|ginkgo biloba extract|Ginkgo	http://purl.obolibrary.org/obo/CHEBI_7565	Nifedipine|nifedipine|NIFEDIPINE (Procardia)	positive	Stockleys|NaPDI|NatMedPro	headache/dizziness	http://purl.obolibrary.org/obo/MONDO_0021146	24		
+stockley_57	http://napdi.org/napdi_srs_imports:cinnamomum_verum	Cinnamon	http://purl.obolibrary.org/obo/CHEBI_3387	Carbamazepine	negative	Stockleys			25		
+stockley_58	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_3387	Carbamazepine	negative	Stockleys			26		
+stockley_59|natmed_75|fideo_168	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit|Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_3387	Carbamazepine|CARBAMAZEPINE (Tegretol)|carbamazepine	positive	Stockleys|NatMedPro|FIDEO			27		
+stockley_60|fideo_324	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice| glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_3387	Carbamazepine|carbamazepine	positive	Stockleys|FIDEO			28		
+stockley_61	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_3387	Carbamazepine	negative	Stockleys			29		
+stockley_62	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone	positive	Stockleys			30		
+stockley_63	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone	negative	Stockleys			31		
+stockley_64|napdi_193	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone|chloroxazone	negative	Stockleys|NaPDI			32		
+stockley_65	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone	negative	Stockleys			33		
+stockley_66	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone	negative	Stockleys			34		
+stockley_67	http://napdi.org/napdi_srs_imports:serenoa_repens	Scrub-palmetto	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone	negative	Stockleys			35		
+stockley_68	http://napdi.org/napdi_srs_imports:valeriana_officinalis	Valerian	http://purl.obolibrary.org/obo/CHEBI_3655	Chlorzoxazone	negative	Stockleys			36		
+stockley_69|napdi_69|napdi_70|napdi_71	http://purl.obolibrary.org/obo/CHEBI_16118	Berberine|berberine|berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_4031	Ciclosporin|cyclosporin a|cyclosporin a|cyclosporin a	both	Stockleys|NaPDI|NaPDI|NaPDI			37	http://purl.obolibrary.org/obo/RO_0002213|http://purl.obolibrary.org/obo/RO_0002449|http://purl.obolibrary.org/obo/RO_0002490|http://purl.obolibrary.org/obo/RO_0002448	positively regulates|directly negatively regulates activity of|existence overlaps|directly regulates activity of
+stockley_70	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry	http://purl.obolibrary.org/obo/CHEBI_4031	Ciclosporin	negative	Stockleys			38		
+stockley_71|fideo_106	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_4031	Ciclosporin|cyclosporine	positive	Stockleys|FIDEO			39		
+stockley_72	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea	http://purl.obolibrary.org/obo/CHEBI_4031	Ciclosporin or Tacrolimus	negative	Stockleys			40		
+stockley_73	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice	http://purl.obolibrary.org/obo/CHEBI_31401	Cilostazol	positive	Stockleys			41		
+stockley_75	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_4470	Dextromethorphan	negative	Stockleys			42		
+stockley_76	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_4471	Dextromethorphan	negative	Stockleys			43		
+stockley_77	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea	http://purl.obolibrary.org/obo/CHEBI_4472	Dextromethorphan	negative	Stockleys			44		
+stockley_78	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_4473	Dextromethorphan	negative	Stockleys			45		
+stockley_79	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Purple-coneflower	http://purl.obolibrary.org/obo/CHEBI_4474	Dextromethorphan	negative	Stockleys			46		
+stockley_80	http://napdi.org/napdi_srs_imports:serenoa_repens	Scrub-palmetto	http://purl.obolibrary.org/obo/CHEBI_4475	Dextromethorphan	negative	Stockleys			47		
+stockley_81	http://napdi.org/napdi_srs_imports:valeriana_officinalis	Valerian	http://purl.obolibrary.org/obo/CHEBI_4476	Dextromethorphan	negative	Stockleys			48		
+stockley_82|napdi_189|napdi_272	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal|goldenseal root extract|hydrastinine	http://purl.obolibrary.org/obo/CHEBI_47381	Diclofenac|diclofenac|diclofenac	both	Stockleys|NaPDI|NaPDI			49		
+stockley_84	http://napdi.org/napdi_srs_imports:withania_somnifera	Ashwagandha	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	positive	Stockleys			50		
+stockley_85	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	negative	Stockleys			51		
+stockley_86	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	positive	Stockleys			52		
+stockley_87	http://napdi.org/napdi_srs_imports:aesculus_hippocastanum	Horse-chestnut	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	positive	Stockleys			53		
+stockley_88	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	negative	Stockleys			54		
+stockley_89	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	positive	Stockleys			55		
+stockley_90	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Purple-coneflower	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin	negative	Stockleys			56		
+stockley_91|fideo_314	http://napdi.org/napdi_srs_imports:crataegus_laevigata	Woodland hawthorn| hawthorn plant	http://purl.obolibrary.org/obo/CHEBI_4551	Digoxin|digoxin	both	Stockleys|FIDEO			57		
+stockley_92|fideo_34	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic| garlic food product	http://purl.obolibrary.org/obo/CHEBI_4672	Docetaxel|docetaxel anhydrous	both	Stockleys|FIDEO			58		
+stockley_93	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_53289	Donepezil	negative	Stockleys			59		
+stockley_94|natmed_168|fideo_113	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo|Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_119486	Efavirenz|EFAVIRENZ (Sustiva)|efavirenz	positive	Stockleys|NatMedPro|FIDEO	increased HIV viral load		60		
+stockley_95	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_5050	Fexofenadine	negative	Stockleys			61		
+stockley_96|natmed_88|fideo_203	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit|Grapefruit| grapefruit juice	http://purl.obolibrary.org/obo/CHEBI_5050	Fexofenadine|FEXOFENADINE (Allegra)|fexofenadine	positive	Stockleys|NatMedPro|FIDEO			62		
+stockley_97|natmed_222	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng|Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_5050	Fexofenadine|FEXOFENADINE (Allegra)	both	Stockleys|NatMedPro			63		
+stockley_98	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry	http://purl.obolibrary.org/obo/CHEBI_5130	Flurbiprofen	negative	Stockleys			64		
+stockley_99	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea	http://purl.obolibrary.org/obo/CHEBI_5130	Flurbiprofen	negative	Stockleys			65		
+stockley_100	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_17833	Gentamicin	positive	Stockleys			66		
+stockley_101|fideo_121	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_5613	Haloperidol|haloperidol	positive	Stockleys|FIDEO			67		
+stockley_104	http://purl.obolibrary.org/obo/CHEBI_16118	Berberine	http://purl.obolibrary.org/obo/CHEBI_16794	Hyoscine (Scopolamine)	positive	Stockleys			68		
+stockley_106|napdi_188	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_44032	Indinavir|indinavir	negative	Stockleys|NaPDI			69		
+stockley_107	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea	http://purl.obolibrary.org/obo/CHEBI_80630	Irinotecan	positive	Stockleys			70		
+stockley_108	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_80630	Irinotecan	negative	Stockleys			71		
+stockley_112	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_6030	Isoniazid	positive	Stockleys			72		
+stockley_113|natmed_34	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic|Garlic	http://purl.obolibrary.org/obo/CHEBI_6030	Isoniazid|ISONIAZID	positive	Stockleys|NatMedPro			73		
+stockley_115|natmed_239|fideo_454	http://napdi.org/napdi_srs_imports:glycine_max	Soy|Soy| soybean flour	http://purl.obolibrary.org/obo/CHEBI_18332	Levothyroxine and related drugs|LEVOTHYROXINE (Synthroid, others)|levothyroxine	positive	Stockleys|NatMedPro|FIDEO			74		
+stockley_116|fideo_366	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice| glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_31781	Lopinavir|lopinavir	positive	Stockleys|FIDEO			75		
+napdi_25	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			76		
+stockley_117|napdi_230	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea|green tea leaf	http://purl.obolibrary.org/obo/CHEBI_6541	Losartan|losartan	negative	Stockleys|NaPDI			77		
+stockley_120|fideo_126	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_6801	Metformin|metformin	both	Stockleys|FIDEO			78		
+stockley_121|fideo_434	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle| milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_6909	Metronidazole|metronidazole	positive	Stockleys|FIDEO			79		
+stockley_122	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry	http://purl.obolibrary.org/obo/CHEBI_6931	Midazolam	negative	Stockleys			80		
+stockley_123|napdi_151|natmed_206	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice|ethanolic extract of licorice g. glabra|Licorice	http://purl.obolibrary.org/obo/CHEBI_6931	Midazolam|midazolam|MIDAZOLAM (Versed)	both	Stockleys|NaPDI|NatMedPro			81		
+stockley_124|natmed_26|fideo_15	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Purple-coneflower|Echinacea| echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_6931	Midazolam|MIDAZOLAM (Versed)|midazolam	both	Stockleys|NatMedPro|FIDEO			82		
+stockley_125	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_6931	Midazolam	positive	Stockleys			83		
+stockley_126	http://napdi.org/napdi_srs_imports:glycine_max	Soy	http://purl.obolibrary.org/obo/CHEBI_18723	Nicotine	positive	Stockleys			84		
+stockley_127|natmed_18	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry|Cranberry	http://purl.obolibrary.org/obo/CHEBI_7565	Nifedipine|NIFEDIPINE (Procardia)	positive	Stockleys|NatMedPro			85		
+stockley_128|natmed_1	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger|Ginger	http://purl.obolibrary.org/obo/CHEBI_7565	Nifedipine|NIFEDIPINE (Procardia)	positive	Stockleys|NatMedPro	bleeding	http://purl.obolibrary.org/obo/HP_0001892	86		
+stockley_129	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_7565	Nifedipine	negative	Stockleys			87		
+stockley_132	http://napdi.org/napdi_srs_imports:cinnamomum_verum	Cinnamon	http://purl.obolibrary.org/obo/CHEBI_7731	Ofloxacin	negative	Stockleys			88		
+stockley_133	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_7731	Ofloxacin	negative	Stockleys			89		
+stockley_134	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice	http://purl.obolibrary.org/obo/CHEBI_7731	Ofloxacin	negative	Stockleys			90		
+stockley_135	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_7731	Ofloxacin	negative	Stockleys			91		
+stockley_136|napdi_73	http://purl.obolibrary.org/obo/CHEBI_16118	Berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_45863	Paclitaxel|paclitaxel	both	Stockleys|NaPDI			92		
+stockley_137|napdi_59|napdi_174	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal|aqueous goldenseal extract|ethanolic goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_45863	Paclitaxel|paclitaxel|paclitaxel	both	Stockleys|NaPDI|NaPDI			93		
+stockley_138	http://napdi.org/napdi_srs_imports:glycine_max	Soy	http://purl.obolibrary.org/obo/CHEBI_45863	Paclitaxel		Stockleys			94		
+stockley_139	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_46195	Paracetamol (Acetaminophen)	negative	Stockleys			95		
+stockley_140	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_8069	Phenobarbital	positive	Stockleys			96		
+stockley_141	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_8499	Propranolol	positive	Stockleys			97		
+stockley_144	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_45285	Pyrazinamide	positive	Stockleys			98		
+stockley_145	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_8776	Ranitidine	negative	Stockleys			99		
+stockley_146	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_28077	Rifampicin (Rifampin)	positive	Stockleys			100		
+stockley_147	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_28077	Rifampicin (Rifampin)	positive	Stockleys			101		
+stockley_148|natmed_51	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo|Ginkgo	http://purl.obolibrary.org/obo/CHEBI_8871	Risperidone|RISPERIDONE (Risperdal)	positive	Stockleys|NatMedPro			102		
+stockley_149	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_38545	Rosuvastatin	negative	Stockleys			103		
+stockley_150|natmed_110|fideo_273	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit|Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_61049	Tacrolimus|TACROLIMUS (Prograf)|tacrolimus	positive	Stockleys|NatMedPro|FIDEO			104		
+stockley_151|napdi_183|natmed_56	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo|ginkgo biloba extract|Ginkgo	http://purl.obolibrary.org/obo/CHEBI_135533	Talinolol|talinolol|TALINOLOL	positive	Stockleys|NaPDI|NatMedPro			105		
+stockley_152	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk Thistle	http://purl.obolibrary.org/obo/CHEBI_135533	Talinolol	positive	Stockleys			106		
+stockley_153|natmed_242	http://napdi.org/napdi_srs_imports:glycine_max	Soy|Soy	http://purl.obolibrary.org/obo/CHEBI_41774	Tamoxifen|TAMOXIFEN (Nolvadex)	positive	Stockleys|NatMedPro			107		
+stockley_154	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_41774	Tamoxifen and other oestrogen antagonists	positive	Stockleys			108		
+stockley_155	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_28177	Theophylline	positive	Stockleys			109		
+stockley_156	http://napdi.org/napdi_srs_imports:rhodiola_rosea	Rhodiola	http://purl.obolibrary.org/obo/CHEBI_28177	Theophylline	positive	Stockleys			110		
+stockley_158	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry	http://purl.obolibrary.org/obo/CHEBI_63629	Tizanidine	negative	Stockleys			111		
+stockley_159	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_27999	Tolbutamide	positive	Stockleys			112		
+stockley_160	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_27999	Tolbutamide	negative	Stockleys			113		
+stockley_161|napdi_175	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal|ethanolic goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_27999	Tolbutamide|tolbutamide	both	Stockleys|NaPDI			114		
+stockley_162|napdi_148	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice|ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_27999	Tolbutamide|tolbutamide	positive	Stockleys|NaPDI			115		
+stockley_163	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng	http://purl.obolibrary.org/obo/CHEBI_27999	Tolbutamide	positive	Stockleys			116		
+stockley_164|fideo_17	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Purple-coneflower| echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_27999	Tolbutamide|tolbutamide	both	Stockleys|FIDEO			117		
+stockley_165	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI:9654	Trazodone	positive	Stockleys			118		
+stockley_167|natmed_117|fideo_296	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit|Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin|WARFARIN (Coumadin)|warfarin	positive	Stockleys|NatMedPro|FIDEO			119		
+stockley_168|natmed_208|fideo_413	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Liquorice|Licorice| glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin|WARFARIN (Coumadin)|warfarin	positive	Stockleys|NatMedPro|FIDEO			120		
+stockley_169	http://napdi.org/napdi_srs_imports:rhodiola_rosea	Rhodiola	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin	positive	Stockleys			121		
+stockley_170|natmed_19|fideo_7	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry|Cranberry| cranberry food product	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)|warfarin	positive	Stockleys|NatMedPro|FIDEO			122		
+stockley_171|natmed_31	http://napdi.org/napdi_srs_imports:trigonella_foenum-graecum	Fenugreek|Fenugreek	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)	positive	Stockleys|NatMedPro			123		
+stockley_172|natmed_0|fideo_62	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic|Garlic| garlic food product	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)|warfarin	positive	Stockleys|NatMedPro|FIDEO	bleeding	http://purl.obolibrary.org/obo/HP_0001892	124		
+stockley_173|natmed_11|fideo_140	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo|Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)|warfarin	both	Stockleys|NatMedPro|FIDEO	bleeding	http://purl.obolibrary.org/obo/HP_0001892	125		
+stockley_174|natmed_16|fideo_310	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green Tea|Green tea| tea food product	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)|warfarin	both	Stockleys|NatMedPro|FIDEO	bleeding	http://purl.obolibrary.org/obo/HP_0001892	126	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+stockley_175|natmed_232|fideo_452|fideo_453	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax Ginseng|Panax ginseng| ginseng plant food product| ginseng product	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)|warfarin|warfarin	both	Stockleys|NatMedPro|FIDEO|FIDEO			127	http://purl.obolibrary.org/obo/RO_0002448	directly regulates activity of
+stockley_176|natmed_243	http://napdi.org/napdi_srs_imports:glycine_max	Soy|Soy	http://purl.obolibrary.org/obo/CHEBI_10033	Warfarin and related drugs|WARFARIN (Coumadin)	positive	Stockleys|NatMedPro			128		
+napdi_0|napdi_259	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|hydrastine	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac|diclofenac	positive	NaPDI|NaPDI			129	http://purl.obolibrary.org/obo/RO_0002436	molecularly interacts with
+napdi_1|napdi_260	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|hydrastine	http://purl.obolibrary.org/obo/CHEBI_34593	bufuralol|bufuralol	positive	NaPDI|NaPDI			130		
+napdi_2|napdi_261|napdi_269	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|hydrastine|hydrastine	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone|testosterone|testosterone	positive	NaPDI|NaPDI|NaPDI			131	http://purl.obolibrary.org/obo/RO_0002436	molecularly interacts with
+napdi_3|napdi_266	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|hydrastine	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan|dextromethorphan	both	NaPDI|NaPDI			132		
+napdi_4|napdi_268|napdi_271	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|hydrastine|hydrastine	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam|midazolam|midazolam	positive	NaPDI|NaPDI|NaPDI			133	http://purl.obolibrary.org/obo/RO_0002449|http://purl.obolibrary.org/obo/GO_0018126	directly negatively regulates activity of|protein hydroxylation
+napdi_5|napdi_8	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|(-)-beta-hydrastine	http://purl.obolibrary.org/obo/CHEBI_17474	estrone-3-sulfate|estrone-3-sulfate	positive	NaPDI|NaPDI			134		
+napdi_6|napdi_12	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|(-)-beta-hydrastine	http://purl.obolibrary.org/obo/CHEBI_641	mpp+|mpp+	negative	NaPDI|NaPDI			135		
+napdi_7|napdi_10|napdi_11	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine|(-)-beta-hydrastine|(-)-beta-hydrastine	http://purl.obolibrary.org/obo/CHEBI_6801	metformin|metformin|metformin	positive	NaPDI|NaPDI|NaPDI			136		
+napdi_9	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine	http://purl.obolibrary.org/obo/CHEBI_791	17-beta-estradiol glucuronide	positive	NaPDI			137		
+napdi_13	http://purl.obolibrary.org/obo/CHEBI_69919	(-)-beta-hydrastine	http://purl.obolibrary.org/obo/CHEBI_18385	thiamine	negative	NaPDI			138		
+napdi_14	http://purl.obolibrary.org/obo/CHEBI_90	(-)-epicatechin	http://purl.obolibrary.org/obo/CHEBI_28184	7-ethoxycoumarin	negative	NaPDI			139		
+napdi_15	http://purl.obolibrary.org/obo/CHEBI_90	(-)-epicatechin	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone	negative	NaPDI			140		
+napdi_16|napdi_17|napdi_18	http://purl.obolibrary.org/obo/CHEBI_90	(-)-epicatechin|(-)-epicatechin|(-)-epicatechin	http://purl.obolibrary.org/obo/CHEBI_8772	raloxifene|raloxifene|raloxifene	positive	NaPDI|NaPDI|NaPDI			141		
+napdi_19|napdi_20|napdi_21	http://purl.obolibrary.org/obo/CHEBI_42255	(-)-epigallocatechin|(-)-epigallocatechin|(-)-epigallocatechin	http://purl.obolibrary.org/obo/CHEBI_8772	raloxifene|raloxifene|raloxifene	positive	NaPDI|NaPDI|NaPDI			142		
+napdi_22	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_131327	amodiaquine	positive	NaPDI			143		
+napdi_23	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_3219	bupropion	positive	NaPDI			144		
+napdi_24	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	positive	NaPDI			145		
+napdi_26|napdi_137	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate|epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam|midazolam	positive	NaPDI|NaPDI			146	http://purl.obolibrary.org/obo/RO_0002436|http://purl.obolibrary.org/obo/RO_0002449	molecularly interacts with|directly negatively regulates activity of
+napdi_27	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_7444	nadolol	positive	NaPDI			147	http://purl.obolibrary.org/obo/RO_0002449|http://purl.obolibrary.org/obo/RO_0002448	directly negatively regulates activity of|directly regulates activity of
+napdi_28|napdi_29	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate|(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_39548	atorvastatin|atorvastatin	both	NaPDI|NaPDI			148		
+napdi_30|napdi_31	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate|(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_63836	bromosulfophthalein|bromosulfophthalein	both	NaPDI|NaPDI			149	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_32	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_145795	digoxin	positive	NaPDI			150		
+napdi_33|napdi_34|napdi_35|napdi_36	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate|(-)-epigallocatechin gallate|(-)-epigallocatechin gallate|(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_6801	metformin|metformin|metformin|metformin	positive	NaPDI|NaPDI|NaPDI|NaPDI			151		
+napdi_37	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone	positive	NaPDI			152	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_38|napdi_39|napdi_40	http://purl.obolibrary.org/obo/CHEBI_4806	(-)-epigallocatechin gallate|(-)-epigallocatechin gallate|(-)-epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_8772	raloxifene|raloxifene|raloxifene	positive	NaPDI|NaPDI|NaPDI			153	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_41	http://purl.obolibrary.org/obo/CHEBI_31018	(-)-gallocatechin	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone	negative	NaPDI			154		
+napdi_42|napdi_43	http://purl.obolibrary.org/obo/CHEBI_136676	2-methoxycinnamaldehyde|2-methoxycinnamaldehyde	http://purl.obolibrary.org/obo/CHEBI_18723	nicotine|nicotine	positive	NaPDI|NaPDI			155		
+napdi_45|napdi_46	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine|7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone|4-methylumbelliferone	both	NaPDI|NaPDI			156		
+napdi_51	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_8050	phenacetin	negative	NaPDI			157		
+napdi_52	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			158		
+napdi_53	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_131327	amodiaquine	negative	NaPDI			159		
+napdi_54	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac	negative	NaPDI			160		
+napdi_55	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	negative	NaPDI			161		
+napdi_56|napdi_57	http://purl.obolibrary.org/obo/CHEBI_180536	7-hydroxymitragynine|7-hydroxymitragynine	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone|testosterone	negative	NaPDI|NaPDI			162		
+napdi_58	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	aqueous goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			163		
+napdi_60|napdi_176|napdi_273|natmed_59	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	aqueous goldenseal extract|ethanolic goldenseal extract|hydrastinine|Goldenseal	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan|dextromethorphan|dextromethorphan|DEXTROMETHORPHAN (Robitussin DM, others)	positive	NaPDI|NaPDI|NaPDI|NatMedPro			164		
+napdi_61|napdi_178|napdi_191	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	aqueous goldenseal extract|ethanolic goldenseal extract|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone|testosterone|testosterone	positive	NaPDI|NaPDI|NaPDI			165		
+napdi_62|napdi_177|napdi_195|napdi_196|napdi_198|napdi_205|napdi_274|fideo_144	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	aqueous goldenseal extract|ethanolic goldenseal extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|hydrastinine| goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam|midazolam|midazolam|midazolam|midazolam|midazolam|midazolam|midazolam	both	NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|FIDEO			166		
+napdi_65|napdi_86|napdi_87	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_34480	7-ethoxyresorufin|7-ethoxyresorufin|7-ethoxyresorufin	both	NaPDI|NaPDI|NaPDI			167		
+napdi_66|napdi_90	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac|diclofenac	both	NaPDI|NaPDI			168		
+napdi_67	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_34593	bufuralol	positive	NaPDI			169		
+napdi_68|napdi_76	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone|testosterone	positive	NaPDI|NaPDI			170	http://purl.obolibrary.org/obo/RO_0002436	molecularly interacts with
+napdi_72	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	negative	NaPDI			171		
+napdi_74|napdi_79	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan|dextromethorphan	positive	NaPDI|NaPDI			172		
+napdi_75|napdi_77	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_16836	p-nitrophenol|p-nitrophenol	positive	NaPDI|NaPDI			173	http://purl.obolibrary.org/obo/RO_0002434	interacts with
+napdi_78	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_27732	caffeine	negative	NaPDI			174	http://purl.obolibrary.org/obo/RO_0002490|http://purl.obolibrary.org/obo/RO_0002449	existence overlaps|directly negatively regulates activity of
+napdi_80|napdi_85|napdi_91	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam|midazolam|midazolam	positive	NaPDI|NaPDI|NaPDI			175	http://purl.obolibrary.org/obo/RO_0002449|http://purl.obolibrary.org/obo/RO_0002434|http://purl.obolibrary.org/obo/RO_0002448|http://purl.obolibrary.org/obo/GO_0018126	directly negatively regulates activity of|interacts with|directly regulates activity of|protein hydroxylation
+napdi_81	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_7772	omeprazole	negative	NaPDI			176		
+napdi_82	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_50729	mitoxantrone	positive	NaPDI			177		
+napdi_83	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_18357	norepinephrine	positive	NaPDI			178		
+napdi_84	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_28790	serotonin	positive	NaPDI			179	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_88|napdi_89	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_16469	17-beta-estradiol|17-beta-estradiol	positive	NaPDI|NaPDI			180		
+napdi_92|napdi_97	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_17474	estrone-3-sulfate|estrone-3-sulfate	positive	NaPDI|NaPDI			181		
+napdi_93|napdi_95|napdi_96|napdi_98	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine|berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_6801	metformin|metformin|metformin|metformin	positive	NaPDI|NaPDI|NaPDI|NaPDI			182	http://purl.obolibrary.org/obo/RO_0002434|http://purl.obolibrary.org/obo/RO_0002490|http://purl.obolibrary.org/obo/RO_0002449|http://purl.obolibrary.org/obo/RO_0002448|http://purl.obolibrary.org/obo/RO_0011010	interacts with|existence overlaps|directly negatively regulates activity of|directly regulates activity of|directly negatively regulates quantity of
+napdi_94|napdi_99	http://purl.obolibrary.org/obo/CHEBI_16118	berberine|berberine	http://purl.obolibrary.org/obo/CHEBI_641	mpp+|mpp+	positive	NaPDI|NaPDI			183	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_100	http://purl.obolibrary.org/obo/CHEBI_16118	berberine	http://purl.obolibrary.org/obo/CHEBI_18385	thiamine	negative	NaPDI			184		
+napdi_103|napdi_104|napdi_105	http://purl.obolibrary.org/obo/CHEBI_15600	catechin|catechin|catechin	http://purl.obolibrary.org/obo/CHEBI_8772	raloxifene|raloxifene|raloxifene	positive	NaPDI|NaPDI|NaPDI			185		
+napdi_121	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_16836	4-nitrophenol	positive	NaPDI			186		
+napdi_122	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_28184	7-ethoxycoumarin	positive	NaPDI			187		
+napdi_123	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_34480	7-ethoxyresorufin	positive	NaPDI			188		
+napdi_124	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_28794	coumarin	positive	NaPDI			189		
+napdi_125	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac	positive	NaPDI			190		
+napdi_126	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam	positive	NaPDI			191		
+napdi_127	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone	positive	NaPDI			192	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_128|napdi_129|napdi_130	http://purl.obolibrary.org/obo/CHEBI_70255	epicatechin gallate|epicatechin gallate|epicatechin gallate	http://purl.obolibrary.org/obo/CHEBI_8772	raloxifene|raloxifene|raloxifene	positive	NaPDI|NaPDI|NaPDI			193		
+napdi_131	http://purl.obolibrary.org/obo/CHEBI_42255	epigallocatechin	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone	negative	NaPDI			194		
+napdi_132	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_16836	4-nitrophenol	positive	NaPDI			195		
+napdi_133	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_28184	7-ethoxycoumarin	positive	NaPDI			196		
+napdi_134	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_34480	7-ethoxyresorufin	positive	NaPDI			197		
+napdi_135	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_28794	coumarin	positive	NaPDI			198		
+napdi_136	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac	positive	NaPDI			199	http://purl.obolibrary.org/obo/RO_0002449|http://purl.obolibrary.org/obo/RO_0002436	directly negatively regulates activity of|molecularly interacts with
+napdi_138	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_16469	17-beta-estradiol	positive	NaPDI			200		
+napdi_139	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_168396	mycophenolic acid	positive	NaPDI			201		
+napdi_140	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_28790	serotonin	positive	NaPDI			202		
+napdi_141	http://purl.obolibrary.org/obo/CHEBI_4806	epigallocatechin gallate	http://purl.obolibrary.org/obo/CHEBI_45951	trifluoperazine	positive	NaPDI			203		
+napdi_143	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_8050	phenacetin	positive	NaPDI			204		
+napdi_144	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_28794	coumarin	negative	NaPDI			205		
+napdi_145	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_3219	bupropion	positive	NaPDI			206		
+napdi_146	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			207		
+napdi_147	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_131327	amodiaquine	positive	NaPDI			208		
+napdi_149	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	negative	NaPDI			209		
+napdi_150	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_3655	chloroxazone	negative	NaPDI			210		
+napdi_152	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	ethanolic extract of licorice g. glabra	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone	positive	NaPDI			211		
+napdi_153	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_8050	phenacetin	positive	NaPDI			212		
+napdi_154	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_28794	coumarin	negative	NaPDI			213		
+napdi_155	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_3219	bupropion	positive	NaPDI			214		
+napdi_156	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			215		
+napdi_157	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_131327	amodiaquine	positive	NaPDI			216		
+napdi_158	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_27999	tolbutamide	positive	NaPDI			217		
+napdi_159	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	positive	NaPDI			218		
+napdi_160	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_3655	chloroxazone	negative	NaPDI			219		
+napdi_161	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone	positive	NaPDI			220		
+napdi_162	http://napdi.org/napdi_srs_imports:glycyrrhiza_inflata	ethanolic extract of licorice g. inflata	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam	positive	NaPDI			221		
+napdi_163	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_8050	phenacetin	negative	NaPDI			222		
+napdi_164	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_28794	coumarin	negative	NaPDI			223		
+napdi_165	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_3219	bupropion	positive	NaPDI			224		
+napdi_166	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			225		
+napdi_167	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_131327	amodiaquine	positive	NaPDI			226		
+napdi_168	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_27999	tolbutamide	positive	NaPDI			227		
+napdi_169	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	negative	NaPDI			228		
+napdi_170	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_3655	chloroxazone	negative	NaPDI			229		
+napdi_171	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone	negative	NaPDI			230		
+napdi_172	http://napdi.org/napdi_srs_imports:glycyrrhiza_uralensis	ethanolic extract of licorice g. uralensis	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam	negative	NaPDI			231		
+napdi_173	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	ethanolic goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_28884	acetanilide	negative	NaPDI			232		
+napdi_190	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_34593	bufuralol	positive	NaPDI			233		
+napdi_194|fideo_143	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract| goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_34665	debrisoquine|debrisoquin	positive	NaPDI|FIDEO			234		
+napdi_197	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_16836	p-nitrophenol	positive	NaPDI			235		
+napdi_199|napdi_200	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_47426	furosemide|furosemide	negative	NaPDI|NaPDI			236		
+napdi_201|napdi_202|napdi_203|napdi_204|napdi_215|napdi_216|napdi_221|napdi_222|napdi_276|napdi_278|natmed_62	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|goldenseal root extract|hydrastinine|hydrastinine|Goldenseal	http://purl.obolibrary.org/obo/CHEBI_6801	metformin|metformin|metformin|metformin|metformin|metformin|metformin|metformin|metformin|metformin|METFORMIN (Glucophage)	positive	NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NaPDI|NatMedPro			237		
+napdi_206|napdi_207|napdi_208	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|goldenseal root extract|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_38545	rosuvastatin|rosuvastatin|rosuvastatin	negative	NaPDI|NaPDI|NaPDI			238		
+napdi_209|napdi_210	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_184522	rosuvastatin lactone|rosuvastatin lactone	negative	NaPDI|NaPDI			239		
+napdi_213|napdi_218|napdi_277	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|goldenseal root extract|hydrastinine	http://purl.obolibrary.org/obo/CHEBI_17474	estrone-3-sulfate|estrone-3-sulfate|estrone-3-sulfate	both	NaPDI|NaPDI|NaPDI			240		
+napdi_214|napdi_223|napdi_275|napdi_279	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|goldenseal root extract|hydrastinine|hydrastinine	http://purl.obolibrary.org/obo/CHEBI_641	mpp+|mpp+|mpp+|mpp+	both	NaPDI|NaPDI|NaPDI|NaPDI			241		
+napdi_217	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_63716	tenofovir	positive	NaPDI			242		
+napdi_219	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_791	17-beta-estradiol glucuronide	positive	NaPDI			243		
+napdi_220	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract	http://purl.obolibrary.org/obo/CHEBI_135946	sincalide	positive	NaPDI			244		
+napdi_224|napdi_280	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	goldenseal root extract|hydrastinine	http://purl.obolibrary.org/obo/CHEBI_18385	thiamine|thiamine	both	NaPDI|NaPDI			245		
+napdi_225	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine	positive	NaPDI			246		
+napdi_226	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf	http://purl.obolibrary.org/obo/CHEBI_16836	p-nitrophenol	positive	NaPDI			247		
+napdi_227|napdi_228	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf|green tea leaf	http://purl.obolibrary.org/obo/CHEBI_8872	ritodrine|ritodrine	positive	NaPDI|NaPDI			248		
+napdi_232|napdi_233|natmed_144	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf|green tea leaf|Green tea	http://purl.obolibrary.org/obo/CHEBI_7444	nadolol|nadolol|NADOLOL (Corgard)	positive	NaPDI|NaPDI|NatMedPro			249	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_234|napdi_235|natmed_121	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf|green tea leaf|Green tea	http://purl.obolibrary.org/obo/CHEBI_39548	atorvastatin|atorvastatin|ATORVASTATIN (Lipitor)	positive	NaPDI|NaPDI|NatMedPro			250	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_236|napdi_237	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf|green tea leaf	http://purl.obolibrary.org/obo/CHEBI_63836	bromosulfophthalein|bromosulfophthalein	positive	NaPDI|NaPDI			251		
+napdi_238	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf	http://purl.obolibrary.org/obo/CHEBI_145795	digoxin	positive	NaPDI			252		
+napdi_239|napdi_240|napdi_241|napdi_242|natmed_140|fideo_308	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf|green tea leaf|green tea leaf|green tea leaf|Green tea| tea food product	http://purl.obolibrary.org/obo/CHEBI_6801	metformin|metformin|metformin|metformin|METFORMIN (Glucophage)|metformin	positive	NaPDI|NaPDI|NaPDI|NaPDI|NatMedPro|FIDEO			253		
+napdi_243|napdi_244|napdi_247|napdi_248|napdi_249	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf|green tea leaf|green tea leaf extract|green tea leaf extract|green tea leaf extract	http://purl.obolibrary.org/obo/CHEBI_8772	raloxifene|raloxifene|raloxifene|raloxifene|raloxifene	positive	NaPDI|NaPDI|NaPDI|NaPDI|NaPDI			254		
+napdi_246	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf extract	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone	positive	NaPDI			255		
+napdi_250	http://napdi.org/napdi_srs_imports:camellia_sinensis	green tea leaf extract	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	negative	NaPDI			256		
+napdi_256	http://napdi.org/napdi_srs_imports:aesculus_hippocastanum	horse chestnut	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	negative	NaPDI			257		
+napdi_257	http://napdi.org/napdi_srs_imports:aesculus_hippocastanum	horse chestnut	http://purl.obolibrary.org/obo/CHEBI_3655	chloroxazone	negative	NaPDI			258		
+napdi_258	http://napdi.org/napdi_srs_imports:aesculus_hippocastanum	horse chestnut	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	negative	NaPDI			259		
+napdi_262	http://purl.obolibrary.org/obo/CHEBI_69919	hydrastine	http://purl.obolibrary.org/obo/CHEBI_28884	acetanilide	positive	NaPDI			260		
+napdi_263	http://purl.obolibrary.org/obo/CHEBI_69919	hydrastine	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			261		
+napdi_264	http://purl.obolibrary.org/obo/CHEBI_69919	hydrastine	http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel	positive	NaPDI			262		
+napdi_265	http://purl.obolibrary.org/obo/CHEBI_69919	hydrastine	http://purl.obolibrary.org/obo/CHEBI_27999	tolbutamide	negative	NaPDI			263		
+napdi_267|napdi_270	http://purl.obolibrary.org/obo/CHEBI_69919	hydrastine|hydrastine	http://purl.obolibrary.org/obo/CHEBI_16836	p-nitrophenol|p-nitrophenol	both	NaPDI|NaPDI			264	http://purl.obolibrary.org/obo/RO_0002434	interacts with
+napdi_292	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	methanolic extract of kratom	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac	positive	NaPDI			265		
+napdi_293|napdi_334	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	methanolic extract of kratom|water extract of kratom	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan|dextromethorphan	both	NaPDI|NaPDI			266		
+napdi_294|napdi_335	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	methanolic extract of kratom|water extract of kratom	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam|midazolam	positive	NaPDI|NaPDI			267		
+napdi_295|napdi_296	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	methanolic extract of kratom|methanolic extract of kratom	http://purl.obolibrary.org/obo/CHEBI_17165	luciferin 6‚Äôbenzyl ether (luciferin-be)|6‚Äôdeoxyluciferin (luciferin h)	negative	NaPDI|NaPDI			268		
+napdi_302|napdi_303	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine|mitragynine	http://purl.obolibrary.org/obo/CHEBI_25078	luciferin|luciferin	positive	NaPDI|NaPDI			269		
+napdi_304	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_17165	luciferin 6‚Äôbenzyl ether (luciferin-be)	negative	NaPDI			270		
+napdi_305	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_3303	calcein-am	positive	NaPDI			271		
+napdi_306	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_8828	rhodamine 123	positive	NaPDI			272	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_307|napdi_308|napdi_309	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine|mitragynine|mitragynine	http://purl.obolibrary.org/obo/CHEBI_17224	4-methylumbelliferone|4-methylumbelliferone|4-methylumbelliferone	negative	NaPDI|NaPDI|NaPDI			273	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_314	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_8050	phenacetin	negative	NaPDI			274		
+napdi_315	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_6757	mephenytoin, (s)-	positive	NaPDI			275		
+napdi_316	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_131327	amodiaquine	positive	NaPDI			276		
+napdi_317|napdi_322	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine|mitragynine	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac|diclofenac	both	NaPDI|NaPDI			277		
+napdi_318|napdi_320	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine|mitragynine	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone|testosterone	negative	NaPDI|NaPDI			278	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+napdi_319|napdi_321|napdi_324	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine|mitragynine|mitragynine	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam|midazolam|midazolam	positive	NaPDI|NaPDI|NaPDI			279	http://purl.obolibrary.org/obo/RO_0002213|http://purl.obolibrary.org/obo/RO_0002449	positively regulates|directly negatively regulates activity of
+napdi_323	http://purl.obolibrary.org/obo/CHEBI_6956	mitragynine	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan	positive	NaPDI			280	http://purl.obolibrary.org/obo/RO_0002213	positively regulates
+napdi_329	http://purl.obolibrary.org/obo/CHEBI_16731	trans-cinnamic aldehyde	http://purl.obolibrary.org/obo/CHEBI_18723	nicotine	positive	NaPDI			281		
+natmed_2|fideo_88	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger| ginger food product	http://purl.obolibrary.org/obo/CHEBI_50438	PHENPROCOUMON (Marcoumar, others)|phenprocoumon	positive	NatMedPro|FIDEO	bleeding	http://purl.obolibrary.org/obo/HP_0001892	282		
+natmed_3|fideo_95	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger| ginger food product	http://purl.obolibrary.org/obo/CHEBI_10033	WARFARIN (Coumadin)|warfarin	positive	NatMedPro|FIDEO	bleeding	http://purl.obolibrary.org/obo/HP_0001892	283		
+natmed_4|fideo_123	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_5855	IBUPROFEN (Advil, others)|ibuprofen	positive	NatMedPro|FIDEO	bleeding	http://purl.obolibrary.org/obo/HP_0001892	284		
+natmed_5	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_2676	AMOXICILLIN (Amoxil, Trimox)	positive	NatMedPro			285		
+natmed_6	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_39548	ATORVASTATIN (Lipitor)	positive	NatMedPro			286		
+natmed_7	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_3387	CARBAMAZEPINE (Tegretol)	positive	NatMedPro			287		
+natmed_8	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_4031	CYCLOSPORINE (Neoral, Sandimmune)	positive	NatMedPro			288		
+natmed_9	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_30145	LITHIUM	positive	NatMedPro			289		
+natmed_10	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_63613	NEVIRAPINE (Viramune)	positive	NatMedPro			290		
+natmed_12	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_8107	PHENYTOIN (Dilantin)	positive	NatMedPro			291		
+natmed_13	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_8499	PROPRANOLOL (Inderal)	positive	NatMedPro			292		
+natmed_14	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_28077	RIFAMPIN (Rifadin)	positive	NatMedPro			293		
+natmed_15	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_28177	THEOPHYLLINE	positive	NatMedPro			294		
+natmed_17	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry	http://purl.obolibrary.org/obo/CHEBI_47381	DICLOFENAC (Voltaren, others)	negative	NatMedPro			295		
+natmed_21	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Echinacea	http://purl.obolibrary.org/obo/CHEBI_367163	DARUNAVIR (Prezista)	negative	NatMedPro			296		
+natmed_22	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Echinacea	http://purl.obolibrary.org/obo/CHEBI_59809	DOCETAXEL (Taxotere)	negative	NatMedPro			297		
+natmed_23	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Licorice	http://purl.obolibrary.org/obo/CHEBI_145795	DIGOXIN (Lanoxin)	positive	NatMedPro	cardiac toxicity		298		
+natmed_24	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Echinacea	http://purl.obolibrary.org/obo/CHEBI_63589	ETRAVIRINE (Intelence)	negative	NatMedPro			299		
+natmed_25	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Echinacea	http://purl.obolibrary.org/obo/CHEBI_145924	LOPINAVIR/RITONAVIR (Kaletra)	negative	NatMedPro			300		
+natmed_27	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Echinacea	http://purl.obolibrary.org/obo/CHEBI_10033	WARFARIN (Coumadin)	positive	NatMedPro			301		
+natmed_28	http://napdi.org/napdi_srs_imports:trigonella_foenum-graecum	Fenugreek	http://purl.obolibrary.org/obo/CHEBI_37941	CLOPIDOGREL (Plavix)	positive	NatMedPro			302		
+natmed_29	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_4887	ETHOSUXIMIDE (Zarontin)	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	303		
+natmed_30	http://napdi.org/napdi_srs_imports:trigonella_foenum-graecum	Fenugreek	http://purl.obolibrary.org/obo/CHEBI_28177	THEOPHYLLINE	positive	NatMedPro			304		
+natmed_32	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_4995	FELBAMATE (Felbatol)	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	305		
+natmed_33	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_8107	PHENYTOIN (Dilantin)	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	306		
+natmed_35|fideo_59	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic| garlic food product	http://purl.obolibrary.org/obo/CHEBI_63621	SAQUINAVIR (Fortovase, Invirase)|saquinavir	positive	NatMedPro|FIDEO			307		
+natmed_36	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_85083	SOFOSBUVIR (Sovaldi)	positive	NatMedPro			308		
+natmed_37	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_61049	TACROLIMUS (Prograf)	positive	NatMedPro			309		
+natmed_38	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_60654	VALPROATE	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	310		
+natmed_39	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_4031	CYCLOSPORINE (Neoral, Sandimmune)	positive	NatMedPro			311		
+natmed_40	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_3387	CARBAMAZEPINE (Tegretol)	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	312		
+natmed_41	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_6909	METRONIDAZOLE (Flagyl)	positive	NatMedPro			313		
+natmed_42	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_4995	FELBAMATE (Felbatol)	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	314		
+natmed_43	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_8107	PHENYTOIN (Dilantin)	positive	NatMedPro	convulsions	http://purl.obolibrary.org/obo/HP_0001250	315		
+natmed_44|fideo_2	http://napdi.org/napdi_srs_imports:actaea_racemosa	Black cohosh| black cohosh root extract	http://purl.obolibrary.org/obo/CHEBI_27899	CISPLATIN (Platinol-AQ)|cisplatin	positive	NatMedPro|FIDEO	decreased cytotoxic effect		316		
+natmed_45	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_2611	ALPRAZOLAM (Xanax)	positive	NatMedPro			317		
+natmed_46	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_39548	ATORVASTATIN (Lipitor)	positive	NatMedPro			318		
+natmed_47|fideo_0	http://napdi.org/napdi_srs_imports:actaea_racemosa	Black cohosh| black cohosh root extract	http://purl.obolibrary.org/obo/CHEBI_39548	ATORVASTATIN (Lipitor)|atorvastatin	positive	NatMedPro|FIDEO	elevated liver enzymes		319		
+natmed_49	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_8104	PHENYLPROPANOLAMINE	positive	NatMedPro	hypertension	http://purl.obolibrary.org/obo/HP_0032263|http://purl.obolibrary.org/obo/HP_0000822	320		
+natmed_50|fideo_129	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_7772	OMEPRAZOLE (Prilosec)|omeprazole	positive	NatMedPro|FIDEO			321		
+natmed_52	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_50122	ROSIGLITAZONE (Avandia)	positive	NatMedPro			322		
+natmed_53	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_9150	SIMVASTATIN (Zocor)	positive	NatMedPro			323		
+natmed_54	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_85083	SOFOSBUVIR (Sovaldi)	positive	NatMedPro			324		
+natmed_55	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo	http://purl.obolibrary.org/obo/CHEBI_61049	TACROLIMUS (Prograf)	positive	NatMedPro			325		
+natmed_57|fideo_138	http://napdi.org/napdi_srs_imports:ginkgo_biloba	Ginkgo| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_9654	TRAZODONE (Desyrel)|trazodone	positive	NatMedPro|FIDEO			326		
+natmed_58	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_18723	NICOTINE	positive	NatMedPro	hypertension	http://purl.obolibrary.org/obo/HP_0032263|http://purl.obolibrary.org/obo/HP_0000822	327		
+natmed_60	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal	http://purl.obolibrary.org/obo/CHEBI_145795	DIGOXIN (Lanoxin)	positive	NatMedPro			328		
+natmed_61	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal	http://purl.obolibrary.org/obo/CHEBI_6541	LOSARTAN (Cozaar)	positive	NatMedPro			329		
+natmed_63	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal	http://purl.obolibrary.org/obo/CHEBI_7798	OSELTAMIVIR (Tamiflu)	positive	NatMedPro			330		
+natmed_64	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_8069	PHENOBARBITAL (Luminal)	positive	NatMedPro	hypertension	http://purl.obolibrary.org/obo/HP_0032263|http://purl.obolibrary.org/obo/HP_0000822	331		
+natmed_65	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal	http://purl.obolibrary.org/obo/CHEBI_61049	TACROLIMUS (Prograf)	positive	NatMedPro			332		
+natmed_66	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_2379	ACEBUTOLOL (Sectral)	positive	NatMedPro			333		
+natmed_67	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_601027	ALISKIREN (Tekturna, Rasilez)	positive	NatMedPro			334		
+natmed_68|fideo_149	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_2663	AMIODARONE (Cordarone)|amiodarone	positive	NatMedPro|FIDEO			335		
+natmed_69	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_40050	AMPRENAVIR (Agenerase)	positive	NatMedPro			336		
+natmed_70|fideo_154	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_195280	ARTEMETHER (Artenam, Paluther)|artemether	positive	NatMedPro|FIDEO			337		
+natmed_71	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_31296	BLONANSERIN (Lonasen)	positive	NatMedPro			338		
+natmed_72	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_3207	BUDESONIDE (Entocort, UCERIS)	positive	NatMedPro			339		
+natmed_73|fideo_162	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_3223	BUSPIRONE (BuSpar)|buspirone	positive	NatMedPro|FIDEO			340		
+natmed_76	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_3441	CARVEDILOL (Coreg)	positive	NatMedPro			341		
+natmed_77	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_94461	CELIPROLOL (Celicard)	positive	NatMedPro			342		
+natmed_78|fideo_173	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_3720	CISAPRIDE (Propulsid)|cisapride	positive	NatMedPro|FIDEO			343		
+natmed_79|fideo_174	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_47780	CLOMIPRAMINE (Anafranil)|clomipramine	positive	NatMedPro|FIDEO			344		
+natmed_80	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_37941	CLOPIDOGREL (Plavix)	positive	NatMedPro			345		
+natmed_81	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_23359	COLCHICINE	positive	NatMedPro			346		
+natmed_82|fideo_178	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_4031	CYCLOSPORINE (Neoral, Sandimmune)|cyclosporine	positive	NatMedPro|FIDEO			347		
+natmed_83	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_135962	DAPOXETINE (Priligy)	positive	NatMedPro			348		
+natmed_84	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_4470	DEXTROMETHORPHAN (Robitussin DM, others)	positive	NatMedPro			349		
+natmed_85	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_42355	ERYTHROMYCIN	positive	NatMedPro			350		
+natmed_86	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			351		
+natmed_87|fideo_199	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_4911	ETOPOSIDE (VePesid)|etoposide	positive	NatMedPro|FIDEO			352		
+natmed_89|fideo_206	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_5138	FLUVOXAMINE (Luvox)|fluvoxamine	positive	NatMedPro|FIDEO			353		
+natmed_90	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_5612	HALOFANTRINE	positive	NatMedPro			354		
+natmed_91|fideo_218	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_6076	ITRACONAZOLE (Sporanox)|itraconazole	positive	NatMedPro|FIDEO			355		
+natmed_92|fideo_225	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_18332	LEVOTHYROXINE (Synthroid, others)|levothyroxine	positive	NatMedPro|FIDEO			356		
+natmed_93	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_6541	LOSARTAN (Cozaar)	positive	NatMedPro			357		
+natmed_94	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_6807	METHADONE (Dolophine)	positive	NatMedPro			358		
+natmed_95	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_6888	METHYLPREDNISOLONE	positive	NatMedPro			359		
+natmed_96	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_7444	NADOLOL (Corgard)	positive	NatMedPro			360		
+natmed_97|fideo_240	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_52172	NILOTINIB (Tasigna)|nilotinib	positive	NatMedPro|FIDEO			361		
+natmed_98	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_7852	OXYCODONE (Oxycontin)	positive	NatMedPro			362		
+natmed_99	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_32020	PITAVASTATIN (Livalo)	positive	NatMedPro			363		
+natmed_100	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_87715	PRASUGREL (Effient)	positive	NatMedPro			364		
+natmed_101|fideo_256	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_45267	PRAZIQUANTEL (Biltricide)|praziquantel	positive	NatMedPro|FIDEO			365		
+natmed_102	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_8405	PRIMAQUINE	positive	NatMedPro			366		
+natmed_103	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_8707	QUETIAPINE (Seroquel)	positive	NatMedPro			367		
+natmed_104|fideo_258	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_28593	QUINIDINE|quinidine	positive	NatMedPro|FIDEO			368		
+natmed_105|fideo_265	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63621	SAQUINAVIR (Fortovase, Invirase)|saquinavir	positive	NatMedPro|FIDEO			369		
+natmed_106	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_16794	SCOPOLAMINE (Transderm Scop)	positive	NatMedPro			370		
+natmed_107	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_9123	SERTRALINE (Zoloft)	positive	NatMedPro			371		
+natmed_108	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_9139	SILDENAFIL (Viagra)	positive	NatMedPro			372		
+natmed_109|fideo_271	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_38940	SUNITINIB (Sutent)|sunitinib	both	NatMedPro|FIDEO			373		
+natmed_111|fideo_274	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_71940	TADALAFIL (Cialis)|tadalafil	positive	NatMedPro|FIDEO			374		
+natmed_112	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_135533	TALINOLOL	positive	NatMedPro			375		
+natmed_113|fideo_278	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9453	TERFENADINE (Seldane)|terfenadine	positive	NatMedPro|FIDEO			376		
+natmed_114	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit	http://purl.obolibrary.org/obo/CHEBI_28177	THEOPHYLLINE	positive	NatMedPro			377		
+natmed_115|fideo_280	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_68558	TICAGRELOR (Brilinta)|ticagrelor	positive	NatMedPro|FIDEO			378		
+natmed_116|fideo_282	http://napdi.org/napdi_srs_imports:citrus_paradisi	Grapefruit| grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_32246	TOLVAPTAN (Samsca)|tolvaptan	positive	NatMedPro|FIDEO			379		
+natmed_118	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_46345	5-FLUOROURACIL	positive	NatMedPro			380		
+natmed_119	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_16335	ADENOSINE (Adenocard)	positive	NatMedPro			381		
+natmed_120	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_30879	ALCOHOL (Ethanol)	positive	NatMedPro			382		
+natmed_122|fideo_299|fideo_300	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea| green tea leaf (dry)| tea food product	http://purl.obolibrary.org/obo/CHEBI_52717	BORTEZOMIB (Velcade)|bortezomib|bortezomib	positive	NatMedPro|FIDEO|FIDEO			383		
+natmed_123	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_8104	PHENYLPROPANOLAMINE	positive	NatMedPro	hypertension	http://purl.obolibrary.org/obo/HP_0032263|http://purl.obolibrary.org/obo/HP_0000822	384		
+natmed_124	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_94461	CELIPROLOL (Celicard)	positive	NatMedPro			385		
+natmed_125	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_3699	CIMETIDINE (Tagamet)	positive	NatMedPro			386		
+natmed_126	http://napdi.org/napdi_srs_imports:glycine_max	Soy	http://purl.obolibrary.org/obo/CHEBI_38623	MONOAMINE OXIDASE INHIBITORS (MAOIs)	positive	NatMedPro	hypertensive crisis	http://purl.obolibrary.org/obo/HP_0100735	387		
+natmed_127|fideo_302	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea| tea food product	http://purl.obolibrary.org/obo/CHEBI_4653	DIPYRIDAMOLE (Persantine)|dipyridamole	positive	NatMedPro|FIDEO			388		
+natmed_128	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_4659	DISULFIRAM (Antabuse)	positive	NatMedPro			389		
+natmed_129	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_15407	EPHEDRINE	positive	NatMedPro			390		
+natmed_130	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			391		
+natmed_131|fideo_498	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric| turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5441	GLYBURIDE (Diabeta, others)|glyburide	positive	NatMedPro|FIDEO	hypoglycemia	http://purl.obolibrary.org/obo/MONDO_0004946|http://purl.obolibrary.org/obo/HP_0001943	392		
+natmed_132|fideo_450	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng| ginseng plant food product	http://purl.obolibrary.org/obo/CHEBI_8060	phenelzine (Nardil) |phenelzine	positive	NatMedPro|FIDEO	hypomania	http://purl.obolibrary.org/obo/HP_0100754|http://purl.obolibrary.org/obo/HP_0100785|http://purl.obolibrary.org/obo/HP_0002360|http://purl.obolibrary.org/obo/MONDO_0021146	393		
+natmed_133	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_5050	FEXOFENADINE (Allegra)	positive	NatMedPro			394		
+natmed_134	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_46081	FLUCONAZOLE (Diflucan)	positive	NatMedPro			395		
+natmed_135	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_5132	FLUTAMIDE (Eulexin)	positive	NatMedPro			396		
+natmed_136	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_5138	FLUVOXAMINE (Luvox)	positive	NatMedPro			397		
+natmed_137	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_45783	IMATINIB (Gleevec)	positive	NatMedPro			398		
+natmed_138	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_43755	LISINOPRIL	positive	NatMedPro			399		
+natmed_139	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_30145	LITHIUM	positive	NatMedPro			400		
+natmed_141	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_18358	METHOXSALEN (Oxsoralen)	positive	NatMedPro			401		
+natmed_142	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_6916	MEXILETINE (Mexitil)	positive	NatMedPro			402		
+natmed_143	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_6931	MIDAZOLAM (Versed)	negative	NatMedPro			403		
+natmed_145	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_7550	NICARDIPINE (Cardene)	positive	NatMedPro			404		
+natmed_146	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_18723	NICOTINE	positive	NatMedPro			405		
+natmed_147	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_85164	NINTEDANIB (Ofev)	positive	NatMedPro			406		
+natmed_148	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_7983	PENTOBARBITAL (Nembutal)	positive	NatMedPro			407		
+natmed_149	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_8069	PHENOBARBITAL (Luminal)	positive	NatMedPro			408		
+natmed_150	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_38093	PHENOTHIAZINES	positive	NatMedPro			409		
+natmed_151	http://napdi.org/napdi_srs_imports:trigonella_foenum-graecum	Fenugreek	http://purl.obolibrary.org/obo/CHEBI_6904	METOPROLOL (Toprol)	positive	NatMedPro	hypotension	http://purl.obolibrary.org/obo/HP_0002615	410		
+natmed_152	http://napdi.org/napdi_srs_imports:zingiber_officinale	Ginger	http://purl.obolibrary.org/obo/CHEBI_6541	LOSARTAN (Cozaar)	positive	NatMedPro	hypotension	http://purl.obolibrary.org/obo/HP_0002615	411		
+natmed_153	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_8228	PIOGLITAZONE (Actos)	positive	NatMedPro			412		
+natmed_154	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_86324	QUINOLONE ANTIBIOTICS	positive	NatMedPro			413		
+natmed_155	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_8863	RILUZOLE (Rilutek)	positive	NatMedPro			414		
+natmed_156	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_38545	ROSUVASTATIN (Crestor)	positive	NatMedPro			415		
+natmed_157	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_9448	TERBINAFINE (Lamisil)	positive	NatMedPro			416		
+natmed_158	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_28177	THEOPHYLLINE	positive	NatMedPro			417	http://purl.obolibrary.org/obo/RO_0002180	has component
+natmed_159	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_9586	TIAGABINE (Gabitril)	positive	NatMedPro			418		
+natmed_160	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_9588	TICLOPIDINE (Ticlid)	positive	NatMedPro			419		
+natmed_161	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_7565	NIFEDIPINE (Procardia)	positive	NatMedPro	hypotension	http://purl.obolibrary.org/obo/HP_0002615	420		
+natmed_162	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_9948	VERAPAMIL (Calan, others)	positive	NatMedPro			421		
+natmed_163|fideo_507	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric| turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6541	LOSARTAN (Cozaar)|losartan	positive	NatMedPro|FIDEO	hypotension	http://purl.obolibrary.org/obo/HP_0002615	422		
+natmed_164	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_16335	ADENOSINE (Adenocard)	positive	NatMedPro			423		
+natmed_165	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_30879	ALCOHOL (Ethanol)	positive	NatMedPro			424		
+natmed_166	http://napdi.org/napdi_srs_imports:allium_sativum	Garlic	http://purl.obolibrary.org/obo/CHEBI_37924	ATAZANAVIR (Reyataz)	positive	NatMedPro	increased HIV viral load		425		
+natmed_167	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_3699	CIMETIDINE (Tagamet)	positive	NatMedPro			426		
+natmed_169	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_4653	DIPYRIDAMOLE (Persantine) 	positive	NatMedPro			427		
+natmed_170	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_4659	DISULFIRAM (Antabuse)	positive	NatMedPro			428		
+natmed_171	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_15407	EPHEDRINE	positive	NatMedPro			429		
+natmed_172	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			430		
+natmed_173	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_4887	ETHOSUXIMIDE (Zarontin)	positive	NatMedPro			431		
+natmed_174	http://napdi.org/napdi_srs_imports:withania_somnifera	Ashwaganda	http://purl.obolibrary.org/obo/CHEBI_49575	DIAZEPAM	positive	NatMedPro	increased sedative effect		432		
+natmed_175	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_46081	FLUCONAZOLE (Diflucan)	positive	NatMedPro			433		
+natmed_176	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_5132	FLUTAMIDE (Eulexin)	positive	NatMedPro			434		
+natmed_177	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_5138	FLUVOXAMINE (Luvox)	positive	NatMedPro			435		
+natmed_178	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_30145	LITHIUM	positive	NatMedPro			436		
+natmed_179	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_6801	METFORMIN (Glucophage)	positive	NatMedPro			437		
+natmed_180	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_18358	METHOXSALEN (Oxsoralen)	positive	NatMedPro			438		
+natmed_181	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_6916	MEXILETINE (Mexitil)	positive	NatMedPro			439		
+natmed_182	http://napdi.org/napdi_srs_imports:withania_somnifera	Ashwaganda	http://purl.obolibrary.org/obo/CHEBI_3756	CLONAZEPAM	positive	NatMedPro	increased sedative effect		440		
+natmed_183	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_7983	PENTOBARBITAL (Nembutal)	positive	NatMedPro			441		
+natmed_184	http://napdi.org/napdi_srs_imports:piper_nigrum	Black pepper	http://purl.obolibrary.org/obo/CHEBI_7983	PENTOBARBITAL (Nembutal)	positive	NatMedPro	increased sedative effect		442		
+natmed_185	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_38093	PHENOTHIAZINES	positive	NatMedPro			443		
+natmed_186	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	Goldenseal	http://purl.obolibrary.org/obo/CHEBI_7983	PENTOBARBITAL (Nembutal)	positive	NatMedPro	increased sedative effect		444		
+natmed_188	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_8228	PIOGLITAZONE (Actos)	positive	NatMedPro			445		
+natmed_189	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_86324	QUINOLONE ANTIBIOTICS	positive	NatMedPro			446		
+natmed_190	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_8863	RILUZOLE (Rilutek)	positive	NatMedPro			447		
+natmed_191	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_9448	TERBINAFINE (Lamisil)	positive	NatMedPro			448		
+natmed_192	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_28177	THEOPHYLLINE	positive	NatMedPro			449	http://purl.obolibrary.org/obo/RO_0002180	has component
+natmed_193	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_9586	TIAGABINE (Gabitril)	positive	NatMedPro			450		
+natmed_194	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_9588	TICLOPIDINE (Ticlid)	positive	NatMedPro			451		
+natmed_195	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_60654	VALPROATE	positive	NatMedPro			452		
+natmed_196	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_9948	VERAPAMIL (Calan, others)	positive	NatMedPro			453		
+natmed_197	http://napdi.org/napdi_srs_imports:valeriana_officinalis	Valerian	http://purl.obolibrary.org/obo/CHEBI_2611	ALPRAZOLAM (Xanax)	positive	NatMedPro	increased sedative effect		454		
+natmed_198	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	Kratom	http://purl.obolibrary.org/obo/CHEBI_7465	NALTREXONE (Vivitrol)	positive	NatMedPro			455		
+natmed_199	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	Kratom	http://purl.obolibrary.org/obo/CHEBI_8707	QUETIAPINE (Seroquel)	positive	NatMedPro			456		
+natmed_200	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	Kratom	http://purl.obolibrary.org/obo/CHEBI_9943	VENLAFAXINE (Effexor)	positive	NatMedPro			457		
+natmed_201	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Licorice	http://purl.obolibrary.org/obo/CHEBI_27899	CISPLATIN (Platinol-AQ)	positive	NatMedPro			458		
+natmed_202	http://napdi.org/napdi_srs_imports:withania_somnifera	Ashwaganda	http://purl.obolibrary.org/obo/CHEBI_60311	THYROID HORMONE	positive	NatMedPro	increased thyroid secretion and synthesis		459		
+natmed_203	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_82960	RALTEGRAVIR (Isentress)	positive	NatMedPro	liver toxicity	http://purl.obolibrary.org/obo/MONDO_0005359|http://purl.obolibrary.org/obo/MONDO_0002184	460		
+natmed_204	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Licorice	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			461		
+natmed_205	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Licorice	http://purl.obolibrary.org/obo/CHEBI_44185	METHOTREXATE (Trexall, others)	negative	NatMedPro			462		
+natmed_207|fideo_383	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Licorice| glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_45863	PACLITAXEL (Abraxane, Onxol)|paclitaxel	positive	NatMedPro|FIDEO			463		
+natmed_211	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			464		
+natmed_212	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_44032	INDINAVIR (Crixivan)	negative	NatMedPro			465		
+natmed_213	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_85089	LEDIPASVIR	positive	NatMedPro			466		
+natmed_214	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_17303	MORPHINE	positive	NatMedPro			467		
+natmed_215	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_8772	RALOXIFENE (Evista)	positive	NatMedPro			468		
+natmed_216	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_9168	SIROLIMUS (Rapamune)	positive	NatMedPro			469		
+natmed_217	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_85083	SOFOSBUVIR (Solvaldi)	positive	NatMedPro			470		
+natmed_218	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_41774	TAMOXIFEN (Nolvadex)	positive	NatMedPro			471		
+natmed_219	http://napdi.org/napdi_srs_imports:silybum_marianum	Milk thistle	http://purl.obolibrary.org/obo/CHEBI_10033	WARFARIN (Coumadin)	positive	NatMedPro			472		
+natmed_221	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			473		
+natmed_223	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_47426	FUROSEMIDE (Lasix)	positive	NatMedPro			474		
+natmed_224	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_45783	IMATINIB (Gleevec)	positive	NatMedPro			475		
+natmed_225	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_145810	INSULIN	positive	NatMedPro			476		
+natmed_226	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_145924	LOPINAVIR/RITONAVIR (Kaletra)	negative	NatMedPro			477		
+natmed_227	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_6931	MIDAZOLAM (Versed)	positive	NatMedPro			478		
+natmed_228	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	Licorice	http://purl.obolibrary.org/obo/CHEBI_50858	CORTICOSTEROIDS	positive	NatMedPro	pseudohyperaldosteronism 		479		
+natmed_229	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_3766	CLOZAPINE (Clozaril)	positive	NatMedPro	psychotic symptoms	http://purl.obolibrary.org/obo/HP_0000709	480		
+natmed_230	http://napdi.org/napdi_srs_imports:paullinia_cupana	Guarana	http://purl.obolibrary.org/obo/CHEBI_3766	CLOZAPINE (Clozaril)	positive	NatMedPro	psychotic symptoms	http://purl.obolibrary.org/obo/HP_0000709	481		
+natmed_231	http://napdi.org/napdi_srs_imports:panax_ginseng	Panax ginseng	http://purl.obolibrary.org/obo/CHEBI_9086	SELEGILINE (Eldepryl)	positive	NatMedPro			482		
+natmed_233	http://napdi.org/napdi_srs_imports:rhodiola_rosea	Rhodiola	http://purl.obolibrary.org/obo/CHEBI_6541	LOSARTAN (Cozaar)	positive	NatMedPro			483		
+natmed_234	http://napdi.org/napdi_srs_imports:rosmarinus_officinalis	Rosemary	http://purl.obolibrary.org/obo/CHEBI_15365	ASPIRIN	positive	NatMedPro			484		
+natmed_235	http://napdi.org/napdi_srs_imports:rosmarinus_officinalis	Rosemary	http://purl.obolibrary.org/obo/CHEBI_9014	SALSALATE (Disalcid)	positive	NatMedPro			485		
+natmed_236	http://napdi.org/napdi_srs_imports:serenoa_repens	Scrub-palmetto	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			486		
+natmed_238	http://napdi.org/napdi_srs_imports:glycine_max	Soy	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			487	http://purl.obolibrary.org/obo/RO_0002434	interacts with
+natmed_240	http://napdi.org/napdi_srs_imports:linum_usitatissimum	Flax seed	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro	reduced estrogen binding		488		
+natmed_241	http://napdi.org/napdi_srs_imports:glycine_max	Soy	http://purl.obolibrary.org/obo/CHEBI_17026	PROGESTERONE	positive	NatMedPro			489		
+natmed_244	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_2669	AMLODIPINE (Norvasc)	positive	NatMedPro			490		
+natmed_245	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_59809	DOCETAXEL (Taxotere)	positive	NatMedPro			491		
+natmed_246	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_50114	ESTROGENS	positive	NatMedPro			492		
+natmed_247	http://napdi.org/napdi_srs_imports:vaccinium_macrocarpon	Cranberry	http://purl.obolibrary.org/obo/CHEBI_39548	ATORVASTATIN (Lipitor)	positive	NatMedPro	rhabdomyolysis 	http://purl.obolibrary.org/obo/HP_0003201|http://purl.obolibrary.org/obo/HP_0009045	493		
+natmed_248	http://napdi.org/napdi_srs_imports:camellia_sinensis	Green tea	http://purl.obolibrary.org/obo/CHEBI_3387	CARBAMAZEPINE (Tegretol)	positive	NatMedPro	seizure	http://purl.obolibrary.org/obo/HP_0001250	494		
+natmed_249	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_100246	NORFLOXACIN (Noroxin)	positive	NatMedPro			495		
+natmed_250	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_45863	PACLITAXEL (Abraxane, Onxol)	positive	NatMedPro			496		
+natmed_251	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_9334	SULFASALAZINE (Azulfidine)	positive	NatMedPro			497		
+natmed_252|fideo_543	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric| turmeric food product	http://purl.obolibrary.org/obo/CHEBI_61049	TACROLIMUS (Prograf)|tacrolimus	positive	NatMedPro|FIDEO			498		
+natmed_253	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_135533	TALINOLOL	positive	NatMedPro			499		
+natmed_254	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_41774	TAMOXIFEN (Nolvadex)	positive	NatMedPro			500		
+natmed_255	http://napdi.org/napdi_srs_imports:curcuma_longa	Turmeric	http://purl.obolibrary.org/obo/CHEBI_10033	WARFARIN (Coumadin)	positive	NatMedPro			501		
+natmed_256	http://napdi.org/napdi_srs_imports:mitragyna_speciosa	Kratom	http://purl.obolibrary.org/obo/CHEBI_31859	MODAFINIL (Provigil)	positive	NatMedPro	seizure	http://purl.obolibrary.org/obo/HP_0001250	502		
+natmed_257	http://napdi.org/napdi_srs_imports:echinacea_purpurea	Echinacea	http://purl.obolibrary.org/obo/CHEBI_4911	ETOPOSIDE (VePesid)	positive	NatMedPro	thrombocytopenia 	http://purl.obolibrary.org/obo/HP_0001873|http://purl.obolibrary.org/obo/MONDO_0002049	503		
+natmed_258	http://napdi.org/napdi_srs_imports:crataegus_laevigata	Woodland hawthorn	http://purl.obolibrary.org/obo/CHEBI_145795	DIGOXIN (Lanoxin)	positive	NatMedPro			504		
+fideo_1	http://napdi.org/napdi_srs_imports:actaea_racemosa	 black cohosh root extract	http://purl.obolibrary.org/obo/CHEBI_2948	azathioprine	positive	FIDEO			505		
+fideo_3	http://napdi.org/napdi_srs_imports:actaea_racemosa	 black cohosh root extract	http://purl.obolibrary.org/obo/CHEBI_4031	cyclosporine	positive	FIDEO			506		
+fideo_4	http://napdi.org/napdi_srs_imports:actaea_racemosa	 black cohosh root extract	http://purl.obolibrary.org/obo/CHEBI_17620	ferulic acid	positive	FIDEO			507	http://purl.obolibrary.org/obo/RO_0002180	has component
+fideo_5	http://napdi.org/napdi_srs_imports:actaea_racemosa	 black cohosh root extract	http://purl.obolibrary.org/obo/CHEBI_41774	tamoxifen	positive	FIDEO			508		
+fideo_6	http://napdi.org/napdi_srs_imports:piper_nigrum	 black or white pepper product	http://purl.obolibrary.org/obo/CHEBI_4672	docetaxel anhydrous	positive	FIDEO			509		
+fideo_8	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_59173	bivalirudin	positive	FIDEO			510		
+fideo_9	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin	positive	FIDEO			511		
+fideo_10	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_3423	carmustine	positive	FIDEO			512		
+fideo_11	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_28830	chlorambucil	positive	FIDEO			513		
+fideo_12	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_27899	cisplatin	positive	FIDEO			514		
+fideo_13	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_567361	cladribine	positive	FIDEO			515		
+fideo_14	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_681569	clofarabine	positive	FIDEO			516		
+fideo_16	http://napdi.org/napdi_srs_imports:echinacea_purpurea	 echinacea root extract	http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel	positive	FIDEO			517		
+fideo_18	http://napdi.org/napdi_srs_imports:trigonella_foenum-graecum	 fenugreek plant	http://purl.obolibrary.org/obo/CHEBI_5383	glimepiride	positive	FIDEO			518		
+fideo_19	http://napdi.org/napdi_srs_imports:trigonella_foenum-graecum	 fenugreek plant	http://purl.obolibrary.org/obo/CHEBI_5441	glyburide	positive	FIDEO			519		
+fideo_20	http://napdi.org/napdi_srs_imports:linum_usitatissimum	 flaxseed food product	http://purl.obolibrary.org/obo/CHEBI_15365	acetylsalicylic acid	positive	FIDEO			520		
+fideo_21	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_53766	acenocoumarol	positive	FIDEO			521		
+fideo_22	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_72296	apixaban	positive	FIDEO			522		
+fideo_23	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_48720	argatroban	positive	FIDEO			523		
+fideo_24|fideo_29|fideo_37|fideo_48|fideo_53|fideo_57	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product| garlic food product| garlic food product| garlic food product| garlic food product| garlic food product	http://purl.obolibrary.org/obo/CHEBI_28304	bemiparin|certoparin|enoxaparin|heparin|parnaparin|reviparin	positive	FIDEO|FIDEO|FIDEO|FIDEO|FIDEO|FIDEO			524		
+fideo_25	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_140421	betrixaban	positive	FIDEO			525		
+fideo_26	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_59173	bivalirudin	positive	FIDEO			526		
+fideo_27	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_52717	bortezomib	positive	FIDEO			527		
+fideo_28	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_90841	cangrelor	positive	FIDEO			528		
+fideo_30	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_70746	dabigatran etexilate	positive	FIDEO			529		
+fideo_31	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_52071	dextran	positive	FIDEO			530		
+fideo_32	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_4513	dicoumarol	positive	FIDEO			531		
+fideo_33	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_4653	dipyridamole	positive	FIDEO			532		
+fideo_35	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_4735	edetic acid	positive	FIDEO			533		
+fideo_36	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_85973	edoxaban	positive	FIDEO			534		
+fideo_38	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_15552	epoprostenol	positive	FIDEO			535		
+fideo_39	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_4911	etoposide	positive	FIDEO			536		
+fideo_40	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_31612	floctafenine	positive	FIDEO			537		
+fideo_41	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_134975	fluindione	positive	FIDEO			538		
+fideo_42	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_46345	fluorouracil	positive	FIDEO			539		
+fideo_43	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_61033	fondaparinux	positive	FIDEO			540		
+fideo_44	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_31654	gliclazide	positive	FIDEO			541		
+fideo_45	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_5383	glimepiride	positive	FIDEO			542		
+fideo_46	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_5384	glipizide	positive	FIDEO			543		
+fideo_47	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_5441	glyburide	positive	FIDEO			544		
+fideo_49	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_63916	iloprost	positive	FIDEO			545		
+fideo_50	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_136040	levomilnacipran	positive	FIDEO			546		
+fideo_51	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_6801	metformin	positive	FIDEO			547		
+fideo_52	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_44185	methotrexate	positive	FIDEO			548		
+fideo_54	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_8066	phenindione	positive	FIDEO			549		
+fideo_55	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_50438	phenprocoumon	positive	FIDEO			550		
+fideo_56	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_87715	prasugrel	positive	FIDEO			551		
+fideo_58	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_68579	rivaroxaban	positive	FIDEO			552		
+fideo_60	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_68558	ticagrelor	positive	FIDEO			553		
+fideo_61	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_82702	vorapaxar	positive	FIDEO			554		
+fideo_63	http://napdi.org/napdi_srs_imports:allium_sativum	 garlic food product	http://purl.obolibrary.org/obo/CHEBI_65172	ximelagatran	positive	FIDEO			555		
+fideo_64	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_53766	acenocoumarol	positive	FIDEO			556		
+fideo_65	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_72296	apixaban	positive	FIDEO			557		
+fideo_66	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_48720	argatroban	positive	FIDEO			558		
+fideo_67|fideo_71|fideo_78|fideo_83|fideo_86|fideo_90	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product| ginger food product| ginger food product| ginger food product| ginger food product| ginger food product	http://purl.obolibrary.org/obo/CHEBI_28304	bemiparin|certoparin|enoxaparin|heparin|parnaparin|reviparin	positive	FIDEO|FIDEO|FIDEO|FIDEO|FIDEO|FIDEO			559		
+fideo_68	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_140421	betrixaban	positive	FIDEO			560		
+fideo_69	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_59173	bivalirudin	positive	FIDEO			561		
+fideo_70	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_90841	cangrelor	positive	FIDEO			562		
+fideo_72	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_70746	dabigatran etexilate	positive	FIDEO			563		
+fideo_73	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_52071	dextran	positive	FIDEO			564		
+fideo_74	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_4513	dicoumarol	positive	FIDEO			565		
+fideo_75	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_4653	dipyridamole	positive	FIDEO			566		
+fideo_76	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_4735	edetic acid	positive	FIDEO			567		
+fideo_77	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_85973	edoxaban	positive	FIDEO			568		
+fideo_79	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_15552	epoprostenol	positive	FIDEO			569		
+fideo_80	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_31612	floctafenine	positive	FIDEO			570		
+fideo_81	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_134975	fluindione	positive	FIDEO			571		
+fideo_82	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_61033	fondaparinux	positive	FIDEO			572		
+fideo_84	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_63916	iloprost	positive	FIDEO			573		
+fideo_85	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_136040	levomilnacipran	positive	FIDEO			574		
+fideo_87	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_8066	phenindione	positive	FIDEO			575		
+fideo_89	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_87715	prasugrel	positive	FIDEO			576		
+fideo_91	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_68579	rivaroxaban	positive	FIDEO			577		
+fideo_92	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_61049	tacrolimus	positive	FIDEO			578		
+fideo_93	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_68558	ticagrelor	positive	FIDEO			579		
+fideo_94	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_82702	vorapaxar	positive	FIDEO			580		
+fideo_96	http://napdi.org/napdi_srs_imports:zingiber_officinale	 ginger food product	http://purl.obolibrary.org/obo/CHEBI_65172	ximelagatran	positive	FIDEO			581		
+fideo_97	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_53766	acenocoumarol	positive	FIDEO			582		
+fideo_98	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_15365	acetylsalicylic acid	positive	FIDEO			583		
+fideo_99	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_72296	apixaban	positive	FIDEO			584		
+fideo_100	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_48720	argatroban	positive	FIDEO			585		
+fideo_101|fideo_105|fideo_114|fideo_122|fideo_130|fideo_134	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract| ginkgo biloba extract| ginkgo biloba extract| ginkgo biloba extract| ginkgo biloba extract| ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_28304	bemiparin|certoparin|enoxaparin|heparin|parnaparin|reviparin	positive	FIDEO|FIDEO|FIDEO|FIDEO|FIDEO|FIDEO			586		
+fideo_102	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_140421	betrixaban	positive	FIDEO			587		
+fideo_103	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_59173	bivalirudin	positive	FIDEO			588		
+fideo_104	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_90841	cangrelor	positive	FIDEO			589		
+fideo_107	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_70746	dabigatran etexilate	positive	FIDEO			590		
+fideo_108	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_52071	dextran	positive	FIDEO			591		
+fideo_109	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_4513	dicoumarol	positive	FIDEO			592		
+fideo_110	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_4653	dipyridamole	positive	FIDEO			593		
+fideo_111	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_4735	edetic acid	positive	FIDEO			594		
+fideo_112	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_85973	edoxaban	positive	FIDEO			595		
+fideo_115	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_15552	epoprostenol	positive	FIDEO			596		
+fideo_116	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_31612	floctafenine	positive	FIDEO			597		
+fideo_117	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_134975	fluindione	positive	FIDEO			598		
+fideo_118	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_46345	fluorouracil	positive	FIDEO			599		
+fideo_119	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_61033	fondaparinux	positive	FIDEO			600		
+fideo_120	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_5441	glyburide	positive	FIDEO			601		
+fideo_124	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_63916	iloprost	positive	FIDEO			602		
+fideo_125	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_136040	levomilnacipran	positive	FIDEO			603		
+fideo_127	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam	positive	FIDEO			604		
+fideo_128	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_168396	mycophenolic acid	positive	FIDEO			605		
+fideo_131	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_8066	phenindione	positive	FIDEO			606		
+fideo_132	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_50438	phenprocoumon	positive	FIDEO			607		
+fideo_133	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_87715	prasugrel	positive	FIDEO			608		
+fideo_135	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_68579	rivaroxaban	positive	FIDEO			609		
+fideo_136	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_68558	ticagrelor	positive	FIDEO			610		
+fideo_137	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_9588	ticlopidine	positive	FIDEO			611		
+fideo_139	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_82702	vorapaxar	positive	FIDEO			612		
+fideo_141	http://napdi.org/napdi_srs_imports:ginkgo_biloba	 ginkgo biloba extract	http://purl.obolibrary.org/obo/CHEBI_65172	ximelagatran	positive	FIDEO			613		
+fideo_142	http://napdi.org/napdi_srs_imports:hydrastis_canadensis	 goldenseal extract	http://purl.obolibrary.org/obo/CHEBI_4031	cyclosporine	positive	FIDEO			614		
+fideo_145	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_167707	acalabrutinib	positive	FIDEO			615		
+fideo_146	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_90936	alectinib	positive	FIDEO			616		
+fideo_147	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_2611	alprazolam	positive	FIDEO			617		
+fideo_148	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_2659	aminophylline	positive	FIDEO			618		
+fideo_150	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_2668	amlodipine	positive	FIDEO			619		
+fideo_151	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_72296	apixaban	positive	FIDEO			620		
+fideo_152	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_48720	argatroban	positive	FIDEO			621		
+fideo_153	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_77590	armodafinil	positive	FIDEO			622		
+fideo_155	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_134723	asunaprevir	positive	FIDEO			623		
+fideo_156	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_39548	atorvastatin	positive	FIDEO			624		
+fideo_157	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_66910	axitinib	positive	FIDEO			625		
+fideo_158	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_135954	bilastine	positive	FIDEO			626		
+fideo_159	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_52717	bortezomib	positive	FIDEO			627		
+fideo_160	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_39112	bosutinib	positive	FIDEO			628		
+fideo_161	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_3216	buprenorphine	positive	FIDEO			629		
+fideo_163	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_28901	busulfan	positive	FIDEO			630		
+fideo_164	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63584	cabazitaxel	positive	FIDEO			631		
+fideo_165	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_3286	cabergoline	positive	FIDEO			632		
+fideo_166	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_72317	cabozantinib	positive	FIDEO			633		
+fideo_167	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_69478	cannabidiol	positive	FIDEO			634		
+fideo_169	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_78432	ceritinib	positive	FIDEO			635		
+fideo_170	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_3558	cerivastatin	positive	FIDEO			636		
+fideo_171	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_31401	cilostazol	positive	FIDEO			637		
+fideo_172	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit juice (calcium fortified)	http://purl.obolibrary.org/obo/CHEBI_100241	ciprofloxacin	positive	FIDEO			638		
+fideo_175	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_90851	cobimetinib	positive	FIDEO			639		
+fideo_176	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_173077	copanlisib	positive	FIDEO			640		
+fideo_177	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_64310	crizotinib	positive	FIDEO			641		
+fideo_179	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_75045	dabrafenib	positive	FIDEO			642		
+fideo_180	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_82977	daclatasvir	positive	FIDEO			643		
+fideo_181	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_132268	dacomitinib	positive	FIDEO			644		
+fideo_182	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_190514	dasatinib	positive	FIDEO			645		
+fideo_183	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_135720	deflazacort	positive	FIDEO			646		
+fideo_184	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_70708	dienogest	positive	FIDEO			647		
+fideo_185	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_4562	dihydroergotamine	positive	FIDEO			648		
+fideo_186	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_4681	dofetilide	positive	FIDEO			649		
+fideo_187	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_28748	doxorubicin	positive	FIDEO			650		
+fideo_188	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_50659	dronedarone	positive	FIDEO			651		
+fideo_189	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_132967	elbasvir	positive	FIDEO			652		
+fideo_190	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_82752	eliglustat	positive	FIDEO			653		
+fideo_191	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_145374	enasidenib	positive	FIDEO			654		
+fideo_192|fideo_193	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product| grapefruit juice	http://purl.obolibrary.org/obo/CHEBI_31547	eplerenone|eplerenone	positive	FIDEO|FIDEO			655		
+fideo_194	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_114785	erlotinib	positive	FIDEO			656		
+fideo_195	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_135981	estradiol acetate	positive	FIDEO			657		
+fideo_196	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_34745	estradiol cypionate	positive	FIDEO			658		
+fideo_197	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_31561	estradiol valerate	positive	FIDEO			659		
+fideo_198	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_17263	estrone	positive	FIDEO			660		
+fideo_200	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63589	etravirine	positive	FIDEO			661		
+fideo_201	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_68478	everolimus	positive	FIDEO			662		
+fideo_202	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_585948	felodipine	positive	FIDEO			663		
+fideo_204	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_90865	flibanserin	positive	FIDEO			664		
+fideo_205	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_31622	flunitrazepam	positive	FIDEO			665		
+fideo_207	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_64321	fosaprepitant	positive	FIDEO			666		
+fideo_208	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_49668	gefitinib	positive	FIDEO			667		
+fideo_209	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_145372	gilteritinib	positive	FIDEO			668		
+fideo_210	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_5818	hydroxyzine	positive	FIDEO			669		
+fideo_211	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_76612	ibrutinib	positive	FIDEO			670		
+fideo_212	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_82701	idelalisib	positive	FIDEO			671		
+fideo_213	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_5864	ifosfamide	positive	FIDEO			672		
+fideo_214	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_45783	imatinib	positive	FIDEO			673		
+fideo_215	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_44032	indinavir	positive	FIDEO			674		
+fideo_216	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_85979	isavuconazole	positive	FIDEO			675		
+fideo_217	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_85978	isavuconazonium	positive	FIDEO			676		
+fideo_219	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_85966	ivabradine	positive	FIDEO			677		
+fideo_220	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_145430	ivosidenib	positive	FIDEO			678		
+fideo_221	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63605	ixabepilone	positive	FIDEO			679		
+fideo_222	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_135556	ketazolam	positive	FIDEO			680		
+fideo_223	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_49603	lapatinib	positive	FIDEO			681		
+fideo_224	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_136040	levomilnacipran	positive	FIDEO			682		
+fideo_226	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_6485	liotrix	positive	FIDEO			683		
+fideo_227	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_72297	lomitapide	positive	FIDEO			684		
+fideo_228	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_143117	lorlatinib	positive	FIDEO			685		
+fideo_229	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_40303	lovastatin	positive	FIDEO			686		
+fideo_230	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_156095	lumefantrine	positive	FIDEO			687		
+fideo_231	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_92607	methylergometrine	positive	FIDEO			688		
+fideo_232	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_6931	midazolam	positive	FIDEO			689		
+fideo_233	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63452	midostaurin	positive	FIDEO			690		
+fideo_234	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_50692	mifepristone	positive	FIDEO			691		
+fideo_235	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_61397	neratinib	positive	FIDEO			692		
+fideo_236	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_85155	netupitant	positive	FIDEO			693		
+fideo_237	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_7550	nicardipine	positive	FIDEO			694		
+fideo_238|fideo_239	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product| grapefruit juice	http://purl.obolibrary.org/obo/CHEBI_7565	nifedipine|nifedipine	positive	FIDEO|FIDEO			695		
+fideo_241	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_7575	nimodipine	positive	FIDEO			696		
+fideo_242	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_7577	nisoldipine	positive	FIDEO			697		
+fideo_243	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_7630	norgestrel	positive	FIDEO			698		
+fideo_244	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_83766	olaparib	positive	FIDEO			699		
+fideo_245	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel	positive	FIDEO			700		
+fideo_246	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_85993	palbociclib	positive	FIDEO			701		
+fideo_247	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_85990	panobinostat	positive	FIDEO			702		
+fideo_248	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_7931	paricalcitol	positive	FIDEO			703		
+fideo_249	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_71219	pazopanib	positive	FIDEO			704		
+fideo_250	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_145373	pexidartinib	positive	FIDEO			705		
+fideo_251	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_50438	phenprocoumon	positive	FIDEO			706		
+fideo_252	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_133017	pimavanserin	positive	FIDEO			707		
+fideo_253	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_8212	pimozide	positive	FIDEO			708		
+fideo_254	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_78543	ponatinib	positive	FIDEO			709		
+fideo_255	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_8362	prazepam	positive	FIDEO			710		
+fideo_257	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63619	propafenone	positive	FIDEO			711		
+fideo_259	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_87681	ranolazine	positive	FIDEO			712		
+fideo_260	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_68647	regorafenib	positive	FIDEO			713		
+fideo_261	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_61080	romidepsin	positive	FIDEO			714		
+fideo_262	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_134689	rucaparib	positive	FIDEO			715		
+fideo_263	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_135673	rupatadine	positive	FIDEO			716		
+fideo_264	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_66919	ruxolitinib	positive	FIDEO			717		
+fideo_266	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9150	simvastatin	positive	FIDEO			718		
+fideo_267	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9168	sirolimus	positive	FIDEO			719		
+fideo_268	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_90863	sonidegib	positive	FIDEO			720		
+fideo_269	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_50924	sorafenib	positive	FIDEO			721		
+fideo_270	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9316	sufentanil	positive	FIDEO			722		
+fideo_272	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_82698	suvorexant	positive	FIDEO			723		
+fideo_275	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_79042	tasimelteon	positive	FIDEO			724		
+fideo_276	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_79699	temsirolimus	positive	FIDEO			725		
+fideo_277	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_75988	teniposide	positive	FIDEO			726		
+fideo_279	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9570	thiotepa	positive	FIDEO			727		
+fideo_281	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_71200	tofacitinib	positive	FIDEO			728		
+fideo_283	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9635	toremifene	positive	FIDEO			729		
+fideo_284	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_84050	trabectedin	positive	FIDEO			730		
+fideo_285	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9674	triazolam	positive	FIDEO			731		
+fideo_286	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_49960	vandetanib	positive	FIDEO			732		
+fideo_287	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_46295	vardenafil	positive	FIDEO			733		
+fideo_288	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_63637	vemurafenib	positive	FIDEO			734		
+fideo_289	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_133021	venetoclax	positive	FIDEO			735		
+fideo_290	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_9948	verapamil	positive	FIDEO			736		
+fideo_291	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_28445	vincristine	positive	FIDEO			737		
+fideo_292	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_36373	vindesine	positive	FIDEO			738		
+fideo_293	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_90241	vinflunine	positive	FIDEO			739		
+fideo_294	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_480999	vinorelbine	positive	FIDEO			740		
+fideo_295	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_82702	vorapaxar	positive	FIDEO			741		
+fideo_297	http://napdi.org/napdi_srs_imports:citrus_paradisi	 grapefruit food product	http://purl.obolibrary.org/obo/CHEBI_32315	zopiclone	positive	FIDEO			742		
+fideo_298	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_15365	acetylsalicylic acid	positive	FIDEO			743		
+fideo_301	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac	positive	FIDEO			744	http://purl.obolibrary.org/obo/RO_0002449	directly negatively regulates activity of
+fideo_303	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_17620	ferulic acid	positive	FIDEO			745		
+fideo_304	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_31654	gliclazide	positive	FIDEO			746		
+fideo_305	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_5383	glimepiride	positive	FIDEO			747		
+fideo_306	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_5384	glipizide	positive	FIDEO			748		
+fideo_307	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_5441	glyburide	positive	FIDEO			749		
+fideo_309	http://napdi.org/napdi_srs_imports:camellia_sinensis	 tea food product	http://purl.obolibrary.org/obo/CHEBI_46195	paracetamol	positive	FIDEO			750		
+fideo_311	http://napdi.org/napdi_srs_imports:paullinia_cupana	 guarana food product	http://purl.obolibrary.org/obo/CHEBI_15365	acetylsalicylic acid	positive	FIDEO			751		
+fideo_312	http://napdi.org/napdi_srs_imports:paullinia_cupana	 guarana food product	http://purl.obolibrary.org/obo/CHEBI_47381	diclofenac	positive	FIDEO			752		
+fideo_313	http://napdi.org/napdi_srs_imports:paullinia_cupana	 guarana food product	http://purl.obolibrary.org/obo/CHEBI_46195	paracetamol	positive	FIDEO			753		
+fideo_315	http://napdi.org/napdi_srs_imports:crataegus_laevigata	 hawthorn plant	http://purl.obolibrary.org/obo/CHEBI_31654	gliclazide	positive	FIDEO			754		
+fideo_316	http://napdi.org/napdi_srs_imports:crataegus_laevigata	 hawthorn plant	http://purl.obolibrary.org/obo/CHEBI_6801	metformin	positive	FIDEO			755		
+fideo_317	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_2639	amiloride	positive	FIDEO			756		
+fideo_318	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_2663	amiodarone	positive	FIDEO			757		
+fideo_319	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_2668	amlodipine	positive	FIDEO			758		
+fideo_320	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_37924	atazanavir	positive	FIDEO			759		
+fideo_321	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_51450	bosentan	positive	FIDEO			760		
+fideo_322|fideo_323	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_3380	captopril|captopril	positive	FIDEO|FIDEO			761		
+fideo_325	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_3699	cimetidine	positive	FIDEO			762		
+fideo_326	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_100241	ciprofloxacin	positive	FIDEO			763		
+fideo_327	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_3732	clarithromycin	positive	FIDEO			764		
+fideo_328	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_37941	clopidogrel	positive	FIDEO			765		
+fideo_329	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_4027	cyclophosphamide	positive	FIDEO			766		
+fideo_330	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_4031	cyclosporine	positive	FIDEO			767		
+fideo_331	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_367163	darunavir	positive	FIDEO			768		
+fideo_332	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_4453	desogestrel	positive	FIDEO			769		
+fideo_333	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_41879	dexamethasone	positive	FIDEO			770		
+fideo_334	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_134841	dihydralazine	positive	FIDEO			771		
+fideo_335|fideo_336	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract| licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_101278	diltiazem|diltiazem	positive	FIDEO|FIDEO			772		
+fideo_337	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_50845	doxycycline	positive	FIDEO			773		
+fideo_338	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_50659	dronedarone	positive	FIDEO			774		
+fideo_339	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_521033	dutasteride	positive	FIDEO			775		
+fideo_340	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_119486	efavirenz	positive	FIDEO			776		
+fideo_341|fideo_342	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_4784	enalapril|enalapril	positive	FIDEO|FIDEO			777		
+fideo_343	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_48923	erythromycin	positive	FIDEO			778		
+fideo_344	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_4903	ethinylestradiol	positive	FIDEO			779		
+fideo_345	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_4995	felbamate	positive	FIDEO			780		
+fideo_346	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_46081	fluconazole	positive	FIDEO			781		
+fideo_347	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_5118	fluoxetine	positive	FIDEO			782		
+fideo_348	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_5138	fluvoxamine	positive	FIDEO			783		
+fideo_349	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_82941	fosamprenavir	positive	FIDEO			784		
+fideo_350|fideo_351	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_5163	fosinopril|fosinopril	positive	FIDEO|FIDEO			785		
+fideo_352|fideo_353	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_47426	furosemide|furosemide	positive	FIDEO|FIDEO			786		
+fideo_354	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_135323	gestodene	positive	FIDEO			787		
+fideo_355|fideo_356	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_5778	hydrochlorothiazide|hydrochlorothiazide	positive	FIDEO|FIDEO			788		
+fideo_357	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_45783	imatinib	positive	FIDEO			789		
+fideo_358	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_44032	indinavir	positive	FIDEO			790		
+fideo_359	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_6030	isoniazide	positive	FIDEO			791		
+fideo_360	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_6076	itraconazole	positive	FIDEO			792		
+fideo_361	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_47519	ketoconazole	positive	FIDEO			793		
+fideo_362|fideo_363	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_85994	lenvatinib|lenvatinib	positive	FIDEO|FIDEO			794		
+fideo_364|fideo_365	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_43755	lisinopril|lisinopril	positive	FIDEO|FIDEO			795		
+fideo_367	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_6761	meprobamate	positive	FIDEO			796		
+fideo_368	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_62088	metamizole	positive	FIDEO			797		
+fideo_369	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_61058	methyldopa	positive	FIDEO			798		
+fideo_370	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_6888	methylprednisolone	positive	FIDEO			799		
+fideo_371	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_6904	metoprolol	positive	FIDEO			800		
+fideo_372	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_6923	miconazole	positive	FIDEO			801		
+fideo_373	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_31859	modafinil	positive	FIDEO			802		
+fideo_374|fideo_375	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_6960	moexipril|moexipril	positive	FIDEO|FIDEO			803		
+fideo_376	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_7444	nadolol	positive	FIDEO			804		
+fideo_377	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_7494	nefazodone	positive	FIDEO			805		
+fideo_378	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_7496	nelfinavir	positive	FIDEO			806		
+fideo_379|fideo_380	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract| licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_7565	nifedipine|nifedipine	positive	FIDEO|FIDEO			807		
+fideo_381	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_7582	nitrendipine	positive	FIDEO			808		
+fideo_382	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_7824	oxcarbazepine	positive	FIDEO			809		
+fideo_384|fideo_385	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_8024	perindopril|perindopril	positive	FIDEO|FIDEO			810		
+fideo_386	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_8069	phenobarbital	positive	FIDEO			811		
+fideo_387	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_8107	phenytoin	positive	FIDEO			812		
+fideo_388	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_258351	practolol	positive	FIDEO			813		
+fideo_389	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_87715	prasugrel	positive	FIDEO			814		
+fideo_390	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_8364	prazosin	positive	FIDEO			815		
+fideo_391	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_8378	prednisolone	positive	FIDEO			816		
+fideo_392	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_8412	primidone	positive	FIDEO			817		
+fideo_393	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product	http://purl.obolibrary.org/obo/CHEBI_8499	propranolol	positive	FIDEO			818		
+fideo_394	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_8707	quetiapine	positive	FIDEO			819		
+fideo_395|fideo_396	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_8713	quinapril|quinapril	positive	FIDEO|FIDEO			820		
+fideo_397	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_135342	reboxetine	positive	FIDEO			821		
+fideo_398	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_8805	repaglinide	positive	FIDEO			822		
+fideo_399	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_28077	rifampicin	positive	FIDEO			823		
+fideo_400	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_45409	ritonavir	positive	FIDEO			824		
+fideo_401	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_48935	roxithromycine	positive	FIDEO			825		
+fideo_402	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_63621	saquinavir	positive	FIDEO			826		
+fideo_403	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_71272	saxagliptin	positive	FIDEO			827		
+fideo_404|fideo_405	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_135756	spirapril|spirapril	positive	FIDEO|FIDEO			828		
+fideo_406	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_9398	tamsulosin	positive	FIDEO			829		
+fideo_407	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_63631	topiramate	positive	FIDEO			830		
+fideo_408|fideo_409	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 licorice plant food product| licorice	http://purl.obolibrary.org/obo/CHEBI_9649	trandolapril|trandolapril	positive	FIDEO|FIDEO			831		
+fideo_410	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_9948	verapamil	positive	FIDEO			832		
+fideo_411	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_27375	vincaleukoblastine	positive	FIDEO			833		
+fideo_412	http://napdi.org/napdi_srs_imports:glycyrrhiza_glabra	 glycyrrhiza glabra extract	http://purl.obolibrary.org/obo/CHEBI_10023	voriconazole	positive	FIDEO			834		
+fideo_414	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_2663	amiodarone	positive	FIDEO			835		
+fideo_415	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_2666	amitriptyline	positive	FIDEO			836		
+fideo_416	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_51450	bosentan	positive	FIDEO			837		
+fideo_417	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_3387	carbamazepine	positive	FIDEO			838		
+fideo_418	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_3638	chloroquine	positive	FIDEO			839		
+fideo_419	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_27899	cisplatin	positive	FIDEO			840		
+fideo_420	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_37941	clopidogrel	positive	FIDEO			841		
+fideo_421	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_41879	dexamethasone	positive	FIDEO			842		
+fideo_422	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_119486	efavirenz	positive	FIDEO			843		
+fideo_423	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_46081	fluconazole	positive	FIDEO			844		
+fideo_424	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5118	fluoxetine	positive	FIDEO			845		
+fideo_425	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_38561	fluvastatin	positive	FIDEO			846		
+fideo_426	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5138	fluvoxamine	positive	FIDEO			847		
+fideo_427	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5296	gemfibrozil	positive	FIDEO			848		
+fideo_428	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_31654	gliclazide	positive	FIDEO			849		
+fideo_429	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5383	glimepiride	positive	FIDEO			850		
+fideo_430	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5384	glipizide	positive	FIDEO			851		
+fideo_431	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5441	glyburide	positive	FIDEO			852		
+fideo_432	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_5959	irbesartan	positive	FIDEO			853		
+fideo_433	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_6541	losartan	positive	FIDEO			854		
+fideo_435	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_6923	miconazole	positive	FIDEO			855		
+fideo_436	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_31897	nateglinide	positive	FIDEO			856		
+fideo_437	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_7915	pantoprazole	positive	FIDEO			857		
+fideo_438	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_8069	phenobarbital	positive	FIDEO			858		
+fideo_439	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_8107	phenytoin	positive	FIDEO			859		
+fideo_440	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_8412	primidone	positive	FIDEO			860		
+fideo_441	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_8707	quetiapine	positive	FIDEO			861		
+fideo_442	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_28077	rifampicin	positive	FIDEO			862		
+fideo_443	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_45409	ritonavir	positive	FIDEO			863		
+fideo_444	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_39867	valproic acid	positive	FIDEO			864		
+fideo_445	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_10023	voriconazole	positive	FIDEO			865		
+fideo_446	http://napdi.org/napdi_srs_imports:silybum_marianum	 milk thistle extract	http://purl.obolibrary.org/obo/CHEBI_10100	zafirlukast	positive	FIDEO			866		
+fideo_447	http://napdi.org/napdi_srs_imports:panax_ginseng	 ginseng root	http://purl.obolibrary.org/obo/CHEBI_4513	dicoumarol	positive	FIDEO			867		
+fideo_448	http://napdi.org/napdi_srs_imports:panax_ginseng	 ginseng root	http://purl.obolibrary.org/obo/CHEBI_61033	fondaparinux	positive	FIDEO			868		
+fideo_449	http://napdi.org/napdi_srs_imports:panax_ginseng	 ginseng plant food product	http://purl.obolibrary.org/obo/CHEBI_17303	morphine	positive	FIDEO			869		
+fideo_451	http://napdi.org/napdi_srs_imports:panax_ginseng	 ginseng root	http://purl.obolibrary.org/obo/CHEBI_8066	phenindione	positive	FIDEO			870		
+fideo_455	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_2663	amiodarone	positive	FIDEO			871		
+fideo_456	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_2666	amitriptyline	positive	FIDEO			872		
+fideo_457	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_37924	atazanavir	positive	FIDEO			873		
+fideo_458	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_51450	bosentan	positive	FIDEO			874		
+fideo_459	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3219	bupropion	positive	FIDEO			875		
+fideo_460	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_27732	caffeine	positive	FIDEO			876		
+fideo_461	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3387	carbamazepine	positive	FIDEO			877		
+fideo_462	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_41423	celecoxib	positive	FIDEO			878		
+fideo_463	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3638	chloroquine	positive	FIDEO			879		
+fideo_464	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3647	chlorpromazine	positive	FIDEO			880		
+fideo_465	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3699	cimetidine	positive	FIDEO			881		
+fideo_466	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_100241	ciprofloxacin	positive	FIDEO			882		
+fideo_467	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3723	citalopram	positive	FIDEO			883		
+fideo_468	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_3732	clarithromycin	positive	FIDEO			884		
+fideo_469	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_47780	clomipramine	positive	FIDEO			885		
+fideo_470	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_37941	clopidogrel	positive	FIDEO			886		
+fideo_471	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_4027	cyclophosphamide	positive	FIDEO			887		
+fideo_472	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_4031	cyclosporine	positive	FIDEO			888		
+fideo_473	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_367163	darunavir	positive	FIDEO			889		
+fideo_474	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_4453	desogestrel	positive	FIDEO			890		
+fideo_475	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_41879	dexamethasone	positive	FIDEO			891		
+fideo_476	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_134841	dihydralazine	positive	FIDEO			892		
+fideo_477	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_101278	diltiazem	positive	FIDEO			893		
+fideo_478	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_4636	diphenhydramine	positive	FIDEO			894		
+fideo_479	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_50659	dronedarone	positive	FIDEO			895		
+fideo_480	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_36796	duloxetine	positive	FIDEO			896		
+fideo_481	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_521033	dutasteride	positive	FIDEO			897		
+fideo_482	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_119486	efavirenz	positive	FIDEO			898		
+fideo_483	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_48923	erythromycin	positive	FIDEO			899		
+fideo_484	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_4903	ethinylestradiol	positive	FIDEO			900		
+fideo_485	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_4995	felbamate	positive	FIDEO			901		
+fideo_486	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_75984	flecainide	positive	FIDEO			902		
+fideo_487	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_46081	fluconazole	positive	FIDEO			903		
+fideo_488	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5118	fluoxetine	positive	FIDEO			904		
+fideo_489	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_38561	fluvastatin	positive	FIDEO			905		
+fideo_490	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5138	fluvoxamine	positive	FIDEO			906		
+fideo_491	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_82941	fosamprenavir	positive	FIDEO			907		
+fideo_492	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_49668	gefitinib	positive	FIDEO			908		
+fideo_493	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5296	gemfibrozil	positive	FIDEO			909		
+fideo_494	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_135323	gestodene	positive	FIDEO			910		
+fideo_495	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_31654	gliclazide	positive	FIDEO			911		
+fideo_496	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5383	glimepiride	positive	FIDEO			912		
+fideo_497	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5384	glipizide	positive	FIDEO			913		
+fideo_499	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5613	haloperidol	positive	FIDEO			914		
+fideo_500	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_45783	imatinib	positive	FIDEO			915		
+fideo_501	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_44032	indinavir	positive	FIDEO			916		
+fideo_502	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_5959	irbesartan	positive	FIDEO			917		
+fideo_503	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6030	isoniazide	positive	FIDEO			918		
+fideo_504	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6076	itraconazole	positive	FIDEO			919		
+fideo_505	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_47519	ketoconazole	positive	FIDEO			920		
+fideo_506	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_31781	lopinavir	positive	FIDEO			921		
+fideo_508	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_156095	lumefantrine	positive	FIDEO			922		
+fideo_509	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6761	meprobamate	positive	FIDEO			923		
+fideo_510	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_62088	metamizole	positive	FIDEO			924		
+fideo_511	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6807	methadone	positive	FIDEO			925		
+fideo_512	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6888	methylprednisolone	positive	FIDEO			926		
+fideo_513	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_107736	metoclopramide	positive	FIDEO			927		
+fideo_514	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6909	metronidazole	positive	FIDEO			928		
+fideo_515	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_6923	miconazole	positive	FIDEO			929		
+fideo_516	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_83531	moclobemide	positive	FIDEO			930		
+fideo_517	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_31859	modafinil	positive	FIDEO			931		
+fideo_518	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_168396	mycophenolic acid	positive	FIDEO			932		
+fideo_519	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_31897	nateglinide	positive	FIDEO			933		
+fideo_520	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7494	nefazodone	positive	FIDEO			934		
+fideo_521	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7496	nelfinavir	positive	FIDEO			935		
+fideo_522	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7565	nifedipine	positive	FIDEO			936		
+fideo_523	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7582	nitrendipine	positive	FIDEO			937		
+fideo_524	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7824	oxcarbazepine	positive	FIDEO			938		
+fideo_525	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7915	pantoprazole	positive	FIDEO			939		
+fideo_526	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_7936	paroxetine	positive	FIDEO			940		
+fideo_527	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_8069	phenobarbital	positive	FIDEO			941		
+fideo_528	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_8107	phenytoin	positive	FIDEO			942		
+fideo_529	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_87715	prasugrel	positive	FIDEO			943		
+fideo_530	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_8412	primidone	positive	FIDEO			944		
+fideo_531	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_8461	promethazine	positive	FIDEO			945		
+fideo_532	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_63619	propafenone	positive	FIDEO			946		
+fideo_533	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_8707	quetiapine	positive	FIDEO			947		
+fideo_534	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_28593	quinidine	positive	FIDEO			948		
+fideo_535	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_135342	reboxetine	positive	FIDEO			949		
+fideo_536	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_28077	rifampicin	positive	FIDEO			950		
+fideo_537	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_8871	risperidone	positive	FIDEO			951		
+fideo_538	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_45409	ritonavir	positive	FIDEO			952		
+fideo_539	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_48935	roxithromycine	positive	FIDEO			953		
+fideo_540	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_63621	saquinavir	positive	FIDEO			954		
+fideo_541	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_71272	saxagliptin	positive	FIDEO			955		
+fideo_542	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_9123	sertraline	positive	FIDEO			956		
+fideo_544	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_9448	terbinafine	positive	FIDEO			957		
+fideo_545	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_63631	topiramate	positive	FIDEO			958		
+fideo_546	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_39867	valproic acid	positive	FIDEO			959		
+fideo_547	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_9943	venlafaxine	positive	FIDEO			960		
+fideo_548	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_9948	verapamil	positive	FIDEO			961		
+fideo_549	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_10023	voriconazole	positive	FIDEO			962		
+fideo_550	http://napdi.org/napdi_srs_imports:curcuma_longa	 turmeric food product	http://purl.obolibrary.org/obo/CHEBI_10100	zafirlukast	positive	FIDEO			963		
+fideo_551	http://napdi.org/napdi_srs_imports:valeriana_officinalis	 valerian root extract	http://purl.obolibrary.org/obo/CHEBI_6539	lorazepam	positive	FIDEO			964		
+fideo_552	http://napdi.org/napdi_srs_imports:valeriana_officinalis	 valerian root extract	http://purl.obolibrary.org/obo/CHEBI_46195	paracetamol	positive	FIDEO			965		

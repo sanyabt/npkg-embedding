@@ -18,10 +18,15 @@ source activate /ix/rboyce/sbt12/envs/kg_embed_dgl
 
 start_time=$(date +%s)
 
-DGLBACKEND=pytorch dglke_train --model_name ComplEx --data_path ../data --dataset npkg --format raw_udd_hrt --data_files train.csv valid.csv test.csv \
+#DGLBACKEND=pytorch dglke_train --model_name ComplEx --data_path ../data --dataset npkg --format raw_udd_hrt --data_files train.csv valid.csv test.csv \
+#--delimiter , --save_path ./output --batch_size 512 --batch_size_eval 32 --max_step 2500 \
+#--neg_sample_size 128 --hidden_dim 400 -adv -a 1.0 --lr 0.1 -rc 1e-9 -log 100 \
+#--no_save_emb --gpu 0 1 2 3 --mix_cpu_gpu --test --async_update --neg_sample_size_eval 500 --gamma 19.9 -de -dr
+
+DGLBACKEND=pytorch dglke_train --model_name ComplEx --data_path ../data --dataset npkg --format raw_udd_hrt --data_files train_with_weights.csv valid_with_weights.csv test_with_weights.csv \
 --delimiter , --save_path ./output --batch_size 512 --batch_size_eval 32 --max_step 2500 \
 --neg_sample_size 128 --hidden_dim 400 -adv -a 1.0 --lr 0.1 -rc 1e-9 -log 100 \
---no_save_emb --gpu 0 1 2 3 --mix_cpu_gpu --test --async_update --neg_sample_size_eval 500 --gamma 19.9 -de -dr
+--no_save_emb --gpu 0 1 2 3 --mix_cpu_gpu --test --async_update --neg_sample_size_eval 500 --gamma 19.9 -de -dr --has_edge_importance
 
 end_time=$(date +%s)
 duration=$((end_time-start_time))

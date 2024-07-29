@@ -20,8 +20,9 @@ def parse_arguments():
     parser.add_argument('--edge_feature', type=str, default='concat', help='Edge feature to use')
     parser.add_argument('--classifier', type=str, default='lr', help='Classifier to use')
     parser.add_argument('--n_folds', type=int, default=5, help='Number of folds for cross-validation')
-    parser.add_argument('--output', type=str, default='results/', help='Output directory')
-    return parser.parse_args()
+    parser.add_argument('--output_dir', type=str, default='results/', help='Output directory')
+    args = parser.parse_args()
+    return args
 
 def load_embeddings(model_name):
     embed_file_name = 'npkg_'+model_name+'_embeddings.pickle'
@@ -37,8 +38,8 @@ def load_data(filename):
 
 def get_embeddings_df(embedding_dict):
     node_embeddings_df = embedding_dict['node_embeddings'][0]
-    edge_type_embeddings_df = embedding_dict['edge_type_embeddings'][0]
-    return node_embeddings_df, edge_type_embeddings_df
+    #edge_type_embeddings_df = embedding_dict['edge_type_embeddings'][0]
+    return node_embeddings_df
 
 def extract_features(edges, node_embeddings_df, edge_feature_method='concat'):
     features = []
@@ -56,14 +57,14 @@ def extract_features(edges, node_embeddings_df, edge_feature_method='concat'):
             continue
     return np.array(features)
 
-def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name):
+def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classifier_name='lr'):
     accuracy_scores = []
     precision_scores = []
     recall_scores = []
     f1_scores = []
     aucs = []
     refdf_predict = refdf.copy()
-    refdf_predict['lr_edge_proba'] = np.nan
+    refdf_predict['edge_proba'] = np.nan
     for train_index, test_index in kf.split(X):
         X_train, X_test = X[train_index], X[test_index]
         y_train, y_test = y[train_index], y[test_index]
@@ -75,36 +76,38 @@ def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name):
         recall_scores.append(recall_score(y_test, y_pred, average='weighted'))
         f1_scores.append(f1_score(y_test, y_pred, average='weighted'))
         aucs.append(roc_auc_score(y_test, y_proba, multi_class='ovr'))
-        refdf_predict.loc[test_index, 'lr_edge_proba'] = y_proba[:, 1]
+        refdf_predict.loc[test_index, 'edge_proba'] = y_proba[:, 1]
     results = {
+        'roc_auc': np.mean(aucs),
         'accuracy': np.mean(accuracy_scores),
         'precision': np.mean(precision_scores),
         'recall': np.mean(recall_scores),
-        'f1': np.mean(f1_scores),
-        'roc_auc': np.mean(aucs)
+        'f1': np.mean(f1_scores)
     }
-    refdf_predict.to_csv(output_dir+model_name+'_lr_edge_predictions.tsv', sep='\t', index=False)
+    refdf_predict.to_csv(output_dir+model_name+'_'+classifier_name+'_edge_predictions.tsv', sep='\t', index=False)
     return results
-    
 
-if __name__ == "__main__":
+def get_baseline_performance():
+    pass
+
+def main(args):
     input_filename = 'reference-data/reference_data_curie_edges_20240725.tsv'
     args = parse_arguments()
-    model_name = args.model
+    model_name = args.embed_model
     classifier = args.classifier
     n_folds = args.n_folds
     edge_feature_method = args.edge_feature
-    output_dir = args.output
+    output_dir = args.output_dir
     logging.info(f"Model: {model_name}, Classifier: {classifier}, Edge Feature: {edge_feature_method}")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     embedding_dict = load_embeddings(model_name)
     refdf = load_data(input_filename)
-    node_embeddings_df, edge_type_embeddings_df = get_embeddings_df(embedding_dict)
+    node_embeddings_df = get_embeddings_df(embedding_dict)
     kf = KFold(n_splits=n_folds, shuffle=True, random_state=42)
 
-    edges = refdf[['node1', 'node2', 'interaction_type_encoded']].values
-    X = extract_features(edges, node_embeddings_df, edge_feature_method='concat')
+    edges = refdf[['source', 'target', 'interaction_type_encoded']].values
+    X = extract_features(edges, node_embeddings_df, edge_feature_method)
     y = refdf['interaction_type_encoded'].values
     #Handle imbalanced data
     class_weights = compute_class_weight('balanced', classes=np.unique(y), y=y)
@@ -126,9 +129,12 @@ if __name__ == "__main__":
         validation_fraction=0.1,
         shuffle=True,
         tol=1e-4,
-        random_state=42, 
-        class_weight=class_weight_dict
+        random_state=42
     )
         
-    results = save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name)
+    results = save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classifier)
     logging.info(results)
+
+if __name__ == '__main__':
+    args = parse_arguments()
+    main(args)

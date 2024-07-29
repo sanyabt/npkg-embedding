@@ -23,7 +23,7 @@ LOG_FILE_PATH = SAVE_PATH+'/training_hpo_log.log'
 # Define the objective function
 @use_named_args(space)
 def objective(**params):
-    model_name = 'TransE_l1'
+    model_name = 'TransR'
     log_file_path = os.path.join(SAVE_PATH, f'training_hpo_log_{params["lr"]}_{params["hidden_dim"]}_{params["rc"]}_{params["gamma"]}_{params["neg_sample_size"]}.log')
 
     # Construct the command with the current hyperparameters

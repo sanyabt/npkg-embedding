@@ -1,0 +1,18 @@
+{
+    "dataset": "npkg",
+    "model": "TransE_l1",
+    "emb_size": 400,
+    "max_train_step": 5000,
+    "batch_size": 512,
+    "neg_sample_size": 128,
+    "lr": 0.01,
+    "gamma": 9.0,
+    "double_ent": false,
+    "double_rel": false,
+    "neg_adversarial_sampling": true,
+    "adversarial_temperature": 1.0,
+    "regularization_coef": 1e-09,
+    "regularization_norm": 3,
+    "emap_file": "entities.tsv",
+    "rmap_file": "relations.tsv"
+}

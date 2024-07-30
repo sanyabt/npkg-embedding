@@ -24,6 +24,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.err
 MANIFEST
 
 # PyInstaller
@@ -144,6 +145,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+*.npy
 
 # Pyre type checker
 .pyre/

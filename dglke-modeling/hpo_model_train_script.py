@@ -52,7 +52,7 @@ def objective(**params):
     return 0.0
 
 # Run the optimization
-res = gp_minimize(objective, space, n_calls=20, random_state=42)
+res = gp_minimize(objective, space, n_calls=10, random_state=42)
 
 # Print the best hyperparameters and corresponding MRR
 print("Best hyperparameters: ", res.x)

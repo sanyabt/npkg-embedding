@@ -2,7 +2,7 @@
 #SBATCH --job-name=train_hpo
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --time=0-2:00:00
+#SBATCH --time=0-4:00:00
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:4
 #SBATCH --cluster=gpu

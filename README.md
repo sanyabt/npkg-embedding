@@ -1,6 +1,8 @@
 # npkg-embedding
 Embeddings related scripts and notebooks for NP-KG
 
+![embeddings-overview](https://github.com/sanyabt/npkg-embedding/blob/main/images/embedding.png)
+
 ## Workflow
 
 ### Note: Steps 1-5 in dglke-modeling/ and 6-8 in embeddings-evaluation/

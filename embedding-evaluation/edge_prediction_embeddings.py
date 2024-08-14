@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 import pickle, os
-from sklearn.model_selection import KFold
+from sklearn.model_selection import StratifiedKFold
 from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, average_precision_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.linear_model import LogisticRegression
@@ -63,6 +63,7 @@ def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classi
     recall_scores = []
     f1_scores = []
     aucs = []
+    avg_precision_scores = []
     refdf_predict = refdf.copy()
     refdf_predict['edge_proba'] = np.nan
     for train_index, test_index in kf.split(X):
@@ -76,13 +77,15 @@ def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classi
         recall_scores.append(recall_score(y_test, y_pred, average='weighted'))
         f1_scores.append(f1_score(y_test, y_pred, average='weighted'))
         aucs.append(roc_auc_score(y_test, y_proba, multi_class='ovr'))
+        avg_precision_scores.append(average_precision_score(y_test, y_proba, average='weighted'))
         refdf_predict.loc[test_index, 'edge_proba'] = y_proba[:, 1]
     results = {
         'roc_auc': np.mean(aucs),
         'accuracy': np.mean(accuracy_scores),
         'precision': np.mean(precision_scores),
         'recall': np.mean(recall_scores),
-        'f1': np.mean(f1_scores)
+        'f1': np.mean(f1_scores),
+        'avg_precision': np.mean(avg_precision_scores)
     }
     refdf_predict.to_csv(output_dir+model_name+'_'+classifier_name+'_edge_predictions.tsv', sep='\t', index=False)
     return results
@@ -104,7 +107,7 @@ def main(args):
     embedding_dict = load_embeddings(model_name)
     refdf = load_data(input_filename)
     node_embeddings_df = get_embeddings_df(embedding_dict)
-    kf = KFold(n_splits=n_folds, shuffle=True, random_state=42)
+    kf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=42)
 
     edges = refdf[['source', 'target', 'interaction_type_encoded']].values
     X = extract_features(edges, node_embeddings_df, edge_feature_method)

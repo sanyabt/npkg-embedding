@@ -57,7 +57,7 @@ def extract_features(edges, node_embeddings_df, edge_feature_method='concat'):
             continue
     return np.array(features)
 
-def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classifier_name='lr'):
+def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classifier_name, edge_feature_method):
     accuracy_scores = []
     precision_scores = []
     recall_scores = []
@@ -66,7 +66,7 @@ def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classi
     avg_precision_scores = []
     refdf_predict = refdf.copy()
     refdf_predict['edge_proba'] = np.nan
-    for train_index, test_index in kf.split(X):
+    for train_index, test_index in kf.split(X, y):
         X_train, X_test = X[train_index], X[test_index]
         y_train, y_test = y[train_index], y[test_index]
         clf.fit(X_train, y_train)
@@ -87,14 +87,14 @@ def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classi
         'f1': np.mean(f1_scores),
         'avg_precision': np.mean(avg_precision_scores)
     }
-    refdf_predict.to_csv(output_dir+model_name+'_'+classifier_name+'_edge_predictions.tsv', sep='\t', index=False)
+    refdf_predict.to_csv(output_dir+model_name+'_'+classifier_name+'_'+edge_feature_method+'_edge_predictions.tsv', sep='\t', index=False)
     return results
 
 def get_baseline_performance():
     pass
 
 def main(args):
-    input_filename = 'reference-data/reference_data_curie_edges_20240725.tsv'
+    input_filename = 'reference-data/reference_data_curie_edges_20240829.tsv'
     args = parse_arguments()
     model_name = args.embed_model
     classifier = args.classifier
@@ -135,7 +135,7 @@ def main(args):
         random_state=42
     )
         
-    results = save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classifier)
+    results = save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classifier, edge_feature_method)
     logging.info(results)
 
 if __name__ == '__main__':

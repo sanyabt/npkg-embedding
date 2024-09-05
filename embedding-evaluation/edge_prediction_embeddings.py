@@ -94,7 +94,7 @@ def get_baseline_performance():
     pass
 
 def main(args):
-    input_filename = 'reference-data/reference_data_curie_edges_20240829.tsv'
+    input_filename = 'reference-data/reference_data_curie_edges_20240905.tsv'
     args = parse_arguments()
     model_name = args.embed_model
     classifier = args.classifier
@@ -128,7 +128,7 @@ def main(args):
         learning_rate="constant",
         learning_rate_init=0.001,
         power_t=0.5,
-        max_iter=200,
+        max_iter=500,
         validation_fraction=0.1,
         shuffle=True,
         tol=1e-4,

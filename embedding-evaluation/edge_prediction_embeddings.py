@@ -81,11 +81,11 @@ def save_classifier_results(clf, X, y, kf, refdf, output_dir, model_name, classi
         refdf_predict.loc[test_index, 'edge_proba'] = y_proba[:, 1]
     results = {
         'roc_auc': np.mean(aucs),
-        'accuracy': np.mean(accuracy_scores),
         'precision': np.mean(precision_scores),
         'recall': np.mean(recall_scores),
         'f1': np.mean(f1_scores),
-        'avg_precision': np.mean(avg_precision_scores)
+        'avg_precision': np.mean(avg_precision_scores),
+        'accuracy': np.mean(accuracy_scores)
     }
     refdf_predict.to_csv(output_dir+model_name+'_'+classifier_name+'_'+edge_feature_method+'_edge_predictions.tsv', sep='\t', index=False)
     return results

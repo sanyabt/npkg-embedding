@@ -11,7 +11,6 @@ import argparse, logging
 
 EMBED_PATH = 'embeddings/'
 DATA_PATH = '../data/'
-LOG_FILE = 'edge_prediction_embeddings.log'
 logging.basicConfig(filename='edge_prediction.log', filemode='a', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 def parse_arguments():

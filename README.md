@@ -6,7 +6,7 @@ Embeddings related scripts and notebooks for NP-KG
 ## Workflow
 
 ### Note: Steps 1-5 in [dglke-modeling/](https://github.com/sanyabt/npkg-embedding/tree/main/dglke-modeling) and 6-8 in [embeddings-evaluation/](https://github.com/sanyabt/npkg-embedding/tree/main/embedding-evaluation). Mechanism generation in [grape-modeling/](https://github.com/sanyabt/npkg-embedding/tree/main/grape-modeling)
-
+0. Input graph is processed to hash all edges so the multigraph is converted to directed graph with unique edges. Input graphs located in np-kg/resources/knowledge_graphs/.
 1. **Split NP-KG into Train, Test, and Validation Data**:
     - Ensure the splits are connected to avoid isolated subgraphs (connected holdout)
     - Save as TSV files for train, validation, test data

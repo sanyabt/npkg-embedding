@@ -49,3 +49,6 @@ Embeddings related scripts and notebooks for NP-KG
     - Mechanism Generation: [neo4j-graph-analysis](https://github.com/sanyabt/npkg-workspace/tree/main/neo4j-graph-analysis)
     - Mechanism Ranking: [generate_and_score_paths.py](https://github.com/sanyabt/npkg-embedding/blob/main/grape-modeling/generate_and_score_paths.py)
     - Mechanism Exploration
+
+#### All experiments with dglke-modeling performed on CRC GPU cluster with A100 GPUs. 
+This work is supported by the National Institutes of Health National Center for Complementary and Integrative Health Grant U54 AT008909. This research was supported in part by the University of Pittsburgh Center for Research Computing​, RRID:SCR_022735, through the resources provided. Specifically, this work used the HTC cluster, which is supported by NIH award number S10OD028483.
